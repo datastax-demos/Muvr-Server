@@ -1,0 +1,85 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/UserExerciseProcessorPersistenceId.scala, /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/SessionId.scala, /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ResistanceExerciseSession.scala, /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ResistanceExercise.scala, /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ExerciseModel.scala, /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/Suggestions.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/UserExerciseProcessorPersistenceId.scala, /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/SessionId.scala, /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ResistanceExerciseSession.scala, /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ResistanceExercise.scala, /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ExerciseModel.scala, /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/Suggestions.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/UserExerciseProcessorPersistenceId.scala, /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/SessionId.scala, /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ResistanceExerciseSession.scala, /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ResistanceExercise.scala, /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ExerciseModel.scala, /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/Suggestions.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 6 sources: invalidated sources (6) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 6 Scala sources to /home/peyton/Documents/muvr-analytics/exercise-protocol/target/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.5[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.5[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 79df073d, interfacing (CompilerInterface) with Scala compiler version 2.10.5[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-encoding[0m
+[0m[[0mdebug[0m] [0m	UTF-8[0m
+[0m[[0mdebug[0m] [0m	-target:jvm-1.7[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-unchecked[0m
+[0m[[0mdebug[0m] [0m	-Ywarn-dead-code[0m
+[0m[[0mdebug[0m] [0m	-feature[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/peyton/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/peyton/Documents/muvr-analytics/exercise-protocol/target/classes:/home/peyton/Documents/muvr-analytics/common-protocol/target/common-protocol_2.10-1.0.0-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 1.249725385 s[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/Suggestions.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/Suggestions.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/Suggestions.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/Suggestions.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/Suggestions.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, unapply, curried, Programme, source, wait, copy$default$2, $asInstanceOf, exerciseModel, compose, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, andThen, tupled, ExerciseIntensity, canEqual, Session, copy$default$4, suggestions, MuscleGroupKey, productPrefix, notifyAll, readResolve, History, isInstanceOf, <init>, apply, date, ==, intensity, Intensity, clone, copy$default$3, copy, toString, notes, !=, Suggestions, ExerciseName, getClass, Trainer, copy$default$1, SuggestionSource, ne, Suggestion, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ResistanceExercise.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ResistanceExercise.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ResistanceExercise.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ResistanceExercise.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ResistanceExercise.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, weight, x, fusedSensorData, sensorLocation, wait, resistanceExercise, copy$default$2, $asInstanceOf, copy$default$5, Threed, productArity, equals, repetitions, y, asInstanceOf, correct, data, SensorData, synchronized, $isInstanceOf, canEqual, copy$default$4, confidence, productPrefix, notifyAll, isInstanceOf, ResistanceExerciseExample, samplesPerSecond, classified, <init>, id, ==, intensity, clone, sensorType, Oned, copy$default$3, copy, toString, !=, FusedSensorData, time, getClass, copy$default$1, copy$default$6, ne, ResistanceExercise, deviceId, value, ClassifiedResistanceExercise, eq, productIterator, ##, finalize, productElement, z, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ResistanceExerciseSession.scala: Set(asInstanceOf, isInstanceOf, ResistanceExerciseExample, <init>, id, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/SessionId.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/SessionId.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/SessionId.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/SessionId.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/SessionId.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	productPrefix$extension, notify, unapply, productArity$extension, copy$extension, wait, $asInstanceOf, SessionId, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, productIterator$extension, canEqual, productPrefix, canEqual$extension, notifyAll, readResolve, isInstanceOf, <init>, id, apply, randomId, copy$default$1$extension, ==, clone, equals$extension, copy, toString, toString$extension, !=, getClass, copy$default$1, productElement$extension, ne, hashCode$extension, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ResistanceExerciseSession.scala: Set(SessionId, asInstanceOf, isInstanceOf, <init>, id, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/UserExerciseProcessorPersistenceId.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/UserExerciseProcessorPersistenceId.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/UserExerciseProcessorPersistenceId.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/UserExerciseProcessorPersistenceId.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/UserExerciseProcessorPersistenceId.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, unapply, wait, $asInstanceOf, pattern, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, readResolve, isInstanceOf, <init>, apply, ==, UserExerciseProcessorPersistenceId, clone, copy, toString, !=, getClass, userId, copy$default$1, ne, persistenceId, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ResistanceExerciseSession.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ResistanceExerciseSession.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ResistanceExerciseSession.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ResistanceExerciseSession.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ResistanceExerciseSession.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, copy$default$2, $asInstanceOf, examples, exerciseModel, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, ResistanceExerciseSession, canEqual, copy$default$4, productPrefix, notifyAll, isInstanceOf, <init>, id, EntireResistanceExerciseSession, ==, intendedIntensity, clone, session, copy$default$3, copy, toString, !=, getClass, title, copy$default$1, ne, startDate, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ExerciseModel.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ExerciseModel.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ExerciseModel.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ExerciseModel.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ExerciseModel.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, copy$default$2, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, ExerciseModel, <init>, id, exercises, ==, clone, copy$default$3, copy, toString, !=, getClass, title, copy$default$1, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/Suggestions.scala: Set(asInstanceOf, isInstanceOf, ExerciseModel, <init>, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/peyton/Documents/muvr-analytics/exercise-protocol/src/main/scala/io/muvr/exercise/ResistanceExerciseSession.scala: Set(asInstanceOf, isInstanceOf, ExerciseModel, <init>, id, ==, toString, title, eq)[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

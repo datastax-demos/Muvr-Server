@@ -1,0 +1,23 @@
+[0m[[0minfo[0m] [0mPackaging /home/peyton/Documents/muvr-server/main/target/main_2.11-1.0.0-SNAPSHOT.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	io/muvr/Muvr.class[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/main/target/classes/io/muvr/Muvr.class[0m
+[0m[[0mdebug[0m] [0m	io/muvr/Muvr$class.class[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/main/target/classes/io/muvr/Muvr$class.class[0m
+[0m[[0mdebug[0m] [0m	io[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/main/target/classes/io[0m
+[0m[[0mdebug[0m] [0m	io/muvr/MuvrApp.class[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/main/target/classes/io/muvr/MuvrApp.class[0m
+[0m[[0mdebug[0m] [0m	io/muvr[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/main/target/classes/io/muvr[0m
+[0m[[0mdebug[0m] [0m	io/muvr/RootServiceActor.class[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/main/target/classes/io/muvr/RootServiceActor.class[0m
+[0m[[0mdebug[0m] [0m	io/muvr/RootServiceActor$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/main/target/classes/io/muvr/RootServiceActor$.class[0m
+[0m[[0mdebug[0m] [0m	main.conf[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/main/target/classes/main.conf[0m
+[0m[[0mdebug[0m] [0m	io/muvr/MuvrApp$delayedInit$body.class[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/main/target/classes/io/muvr/MuvrApp$delayedInit$body.class[0m
+[0m[[0mdebug[0m] [0m	io/muvr/MuvrApp$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/main/target/classes/io/muvr/MuvrApp$.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

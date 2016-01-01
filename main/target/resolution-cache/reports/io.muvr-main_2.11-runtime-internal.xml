@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="io.muvr"
+		module="main_2.11"
+		revision="1.0.0-SNAPSHOT"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20151123085824"/>
+	<dependencies>
+		<module organisation="com.twitter" name="chill-akka_2.11">
+			<revision name="0.5.0" status="release" pubdate="20140909214400" resolver="jcenter" artresolver="jcenter" homepage="https://github.com/twitter/chill" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="51">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2774" time="191" location="/home/peyton/.ivy2/cache/com.twitter/chill-akka_2.11/ivy-0.5.0.xml" searched="true" original-local-location="/home/peyton/.ivy2/cache/com.twitter/chill-akka_2.11/ivy-0.5.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/chill-akka_2.11/0.5.0/chill-akka_2.11-0.5.0.pom"/>
+				<caller organisation="io.muvr" name="main_2.11" conf="compile, runtime-internal, runtime, optional" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="chill-akka_2.11" type="jar" ext="jar" status="successful" details="" size="10025" time="182" location="/home/peyton/.ivy2/cache/com.twitter/chill-akka_2.11/jars/chill-akka_2.11-0.5.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/chill-akka_2.11/0.5.0/chill-akka_2.11-0.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="chill_2.11">
+			<revision name="0.5.0" status="release" pubdate="20140909214300" resolver="jcenter" artresolver="jcenter" homepage="https://github.com/twitter/chill" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2373" time="194" location="/home/peyton/.ivy2/cache/com.twitter/chill_2.11/ivy-0.5.0.xml" searched="true" original-local-location="/home/peyton/.ivy2/cache/com.twitter/chill_2.11/ivy-0.5.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/chill_2.11/0.5.0/chill_2.11-0.5.0.pom"/>
+				<caller organisation="com.twitter" name="chill-akka_2.11" conf="default, compile, runtime, master" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="0.5.0"/>
+				<artifacts>
+					<artifact name="chill_2.11" type="jar" ext="jar" status="successful" details="" size="218295" time="1276" location="/home/peyton/.ivy2/cache/com.twitter/chill_2.11/jars/chill_2.11-0.5.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/chill_2.11/0.5.0/chill_2.11-0.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="chill-java">
+			<revision name="0.5.0" status="release" pubdate="20140909214300" resolver="jcenter" artresolver="jcenter" homepage="https://github.com/twitter/chill" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2034" time="176" location="/home/peyton/.ivy2/cache/com.twitter/chill-java/ivy-0.5.0.xml" searched="true" original-local-location="/home/peyton/.ivy2/cache/com.twitter/chill-java/ivy-0.5.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/chill-java/0.5.0/chill-java-0.5.0.pom"/>
+				<caller organisation="com.twitter" name="chill_2.11" conf="compile, runtime" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="0.5.0"/>
+				<artifacts>
+					<artifact name="chill-java" type="jar" ext="jar" status="successful" details="" size="46715" time="223" location="/home/peyton/.ivy2/cache/com.twitter/chill-java/jars/chill-java-0.5.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/chill-java/0.5.0/chill-java-0.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.esotericsoftware.kryo" name="kryo">
+			<revision name="2.21" status="release" pubdate="20130227144753" resolver="jcenter" artresolver="jcenter" homepage="http://code.google.com/p/kryo/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="54">
+				<license name="New BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="successful" details="" size="5653" time="187" location="/home/peyton/.ivy2/cache/com.esotericsoftware.kryo/kryo/ivy-2.21.xml" searched="true" original-local-location="/home/peyton/.ivy2/cache/com.esotericsoftware.kryo/kryo/ivy-2.21.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.pom"/>
+				<caller organisation="com.twitter" name="chill_2.11" conf="compile, runtime" rev="2.21" rev-constraint-default="2.21" rev-constraint-dynamic="2.21" callerrev="0.5.0"/>
+				<caller organisation="com.twitter" name="chill-akka_2.11" conf="default, compile, runtime, master" rev="2.21" rev-constraint-default="2.21" rev-constraint-dynamic="2.21" callerrev="0.5.0"/>
+				<caller organisation="com.twitter" name="chill-java" conf="compile, runtime" rev="2.21" rev-constraint-default="2.21" rev-constraint-dynamic="2.21" callerrev="0.5.0"/>
+				<artifacts>
+					<artifact name="kryo" type="bundle" ext="jar" status="successful" details="" size="363460" time="1355" location="/home/peyton/.ivy2/cache/com.esotericsoftware.kryo/kryo/bundles/kryo-2.21.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.objenesis" name="objenesis">
+			<revision name="1.2" status="release" pubdate="20121212142936" resolver="jcenter" artresolver="jcenter" homepage="http://objenesis.googlecode.com/svn/docs/index.html" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="57">
+				<metadata-artifact status="successful" details="" size="3008" time="164" location="/home/peyton/.ivy2/cache/org.objenesis/objenesis/ivy-1.2.xml" searched="true" original-local-location="/home/peyton/.ivy2/cache/org.objenesis/objenesis/ivy-1.2.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/objenesis/objenesis/1.2/objenesis-1.2.pom"/>
+				<caller organisation="com.esotericsoftware.kryo" name="kryo" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="2.21"/>
+				<artifacts>
+					<artifact name="objenesis" type="jar" ext="jar" status="successful" details="" size="36046" time="193" location="/home/peyton/.ivy2/cache/org.objenesis/objenesis/jars/objenesis-1.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/objenesis/objenesis/1.2/objenesis-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.esotericsoftware.reflectasm" name="reflectasm">
+			<revision name="1.07" status="release" pubdate="20120619032452" resolver="jcenter" artresolver="jcenter" homepage="http://code.google.com/p/reflectasm/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
+				<license name="New BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="successful" details="" size="3080" time="167" location="/home/peyton/.ivy2/cache/com.esotericsoftware.reflectasm/reflectasm/ivy-1.07.xml" searched="true" original-local-location="/home/peyton/.ivy2/cache/com.esotericsoftware.reflectasm/reflectasm/ivy-1.07.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/esotericsoftware/reflectasm/reflectasm/1.07/reflectasm-1.07.pom"/>
+				<caller organisation="com.esotericsoftware.kryo" name="kryo" conf="compile, runtime" rev="1.07" rev-constraint-default="1.07" rev-constraint-dynamic="1.07" callerrev="2.21"/>
+				<artifacts>
+					<artifact name="reflectasm" type="jar" ext="jar" extra-classifier="shaded" status="successful" details="" size="65612" time="275" location="/home/peyton/.ivy2/cache/com.esotericsoftware.reflectasm/reflectasm/jars/reflectasm-1.07-shaded.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/esotericsoftware/reflectasm/reflectasm/1.07/reflectasm-1.07-shaded.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm">
+			<revision name="4.0" status="release" pubdate="20111206132218" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
+				<metadata-artifact status="successful" details="" size="1933" time="189" location="/home/peyton/.ivy2/cache/org.ow2.asm/asm/ivy-4.0.xml" searched="true" original-local-location="/home/peyton/.ivy2/cache/org.ow2.asm/asm/ivy-4.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/ow2/asm/asm/4.0/asm-4.0.pom"/>
+				<caller organisation="com.esotericsoftware.reflectasm" name="reflectasm" conf="compile, runtime" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="1.07"/>
+				<artifacts>
+					<artifact name="asm" type="jar" ext="jar" status="successful" details="" size="46022" time="216" location="/home/peyton/.ivy2/cache/org.ow2.asm/asm/jars/asm-4.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/ow2/asm/asm/4.0/asm-4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-client_2.11">
+			<revision name="1.3.3" status="release" pubdate="20150324085200" resolver="jcenter" artresolver="jcenter" homepage="http://spray.io" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="50">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2947" time="189" location="/home/peyton/.ivy2/cache/io.spray/spray-client_2.11/ivy-1.3.3.xml" searched="true" original-local-location="/home/peyton/.ivy2/cache/io.spray/spray-client_2.11/ivy-1.3.3.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-client_2.11/1.3.3/spray-client_2.11-1.3.3.pom"/>
+				<caller organisation="io.muvr" name="main_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spray-client_2.11" type="bundle" ext="jar" status="successful" details="" size="44338" time="301" location="/home/peyton/.ivy2/cache/io.spray/spray-client_2.11/bundles/spray-client_2.11-1.3.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-client_2.11/1.3.3/spray-client_2.11-1.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.iq80.leveldb" name="leveldb">
+			<revision name="0.7" status="release" pubdate="20140205221600" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="45">
+				<metadata-artifact status="successful" details="" size="9240" time="176" location="/home/peyton/.ivy2/cache/org.iq80.leveldb/leveldb/ivy-0.7.xml" searched="true" original-local-location="/home/peyton/.ivy2/cache/org.iq80.leveldb/leveldb/ivy-0.7.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/iq80/leveldb/leveldb/0.7/leveldb-0.7.pom"/>
+				<caller organisation="io.muvr" name="main_2.11" conf="compile, runtime-internal, runtime, optional" rev="0.7" rev-constraint-default="0.7" rev-constraint-dynamic="0.7" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="leveldb" type="jar" ext="jar" status="successful" details="" size="229619" time="1848" location="/home/peyton/.ivy2/cache/org.iq80.leveldb/leveldb/jars/leveldb-0.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/iq80/leveldb/leveldb/0.7/leveldb-0.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="16.0.1" status="release" pubdate="20140203164500" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<metadata-artifact status="successful" details="" size="6102" time="173" location="/home/peyton/.ivy2/cache/com.google.guava/guava/ivy-16.0.1.xml" searched="true" original-local-location="/home/peyton/.ivy2/cache/com.google.guava/guava/ivy-16.0.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/guava/guava/16.0.1/guava-16.0.1.pom"/>
+				<caller organisation="com.datastax.cassandra" name="cassandra-driver-core" conf="default, compile, runtime, master" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="2.1.5"/>
+				<caller organisation="org.iq80.leveldb" name="leveldb" conf="default, compile, runtime, master" rev="16.0.1" rev-constraint-default="16.0.1" rev-constraint-dynamic="16.0.1" callerrev="0.7"/>
+				<artifacts>
+					<artifact name="guava" type="bundle" ext="jar" status="successful" details="" size="2228009" time="2615" location="/home/peyton/.ivy2/cache/com.google.guava/guava/bundles/guava-16.0.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/guava/guava/16.0.1/guava-16.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="14.0.1" status="release" pubdate="20130314185719" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<metadata-artifact status="no" details="" size="3789" time="0" location="/home/peyton/.ivy2/cache/com.google.guava/guava/ivy-14.0.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/guava/guava/14.0.1/guava-14.0.1.pom"/>
+				<evicted-by rev="16.0.1"/>
+				<caller organisation="com.datastax.cassandra" name="cassandra-driver-core" conf="default, compile, runtime, master" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="2.1.5"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.iq80.leveldb" name="leveldb-api">
+			<revision name="0.7" status="release" pubdate="20140205221400" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<metadata-artifact status="successful" details="" size="649" time="405" location="/home/peyton/.ivy2/cache/org.iq80.leveldb/leveldb-api/ivy-0.7.xml" searched="true" original-local-location="/home/peyton/.ivy2/cache/org.iq80.leveldb/leveldb-api/ivy-0.7.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/iq80/leveldb/leveldb-api/0.7/leveldb-api-0.7.pom"/>
+				<caller organisation="org.iq80.leveldb" name="leveldb" conf="default, compile, runtime, master" rev="0.7" rev-constraint-default="0.7" rev-constraint-dynamic="0.7" callerrev="0.7"/>
+				<artifacts>
+					<artifact name="leveldb-api" type="jar" ext="jar" status="successful" details="" size="9236" time="172" location="/home/peyton/.ivy2/cache/org.iq80.leveldb/leveldb-api/jars/leveldb-api-0.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/iq80/leveldb/leveldb-api/0.7/leveldb-api-0.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.muvr" name="notification_2.11">
+			<revision name="1.0.0-SNAPSHOT" status="integration" pubdate="20151123085754" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="44">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="io.muvr" name="main_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.muvr" name="profile_2.11">
+			<revision name="1.0.0-SNAPSHOT" status="integration" pubdate="20151123085754" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="42">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="io.muvr" name="main_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.krasserm" name="akka-persistence-cassandra_2.11">
+			<revision name="0.3.7" status="release" pubdate="20150321001428" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="43">
+				<metadata-artifact status="no" details="" size="3327" time="0" location="/home/peyton/.ivy2/cache/com.github.krasserm/akka-persistence-cassandra_2.11/ivy-0.3.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/github/krasserm/akka-persistence-cassandra_2.11/0.3.7/akka-persistence-cassandra_2.11-0.3.7.pom"/>
+				<caller organisation="io.muvr" name="profile_2.11" conf="compile" rev="0.3.7" rev-constraint-default="0.3.7" rev-constraint-dynamic="0.3.7" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="notification_2.11" conf="compile" rev="0.3.7" rev-constraint-default="0.3.7" rev-constraint-dynamic="0.3.7" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="main_2.11" conf="compile, runtime-internal, runtime, optional" rev="0.3.7" rev-constraint-default="0.3.7" rev-constraint-dynamic="0.3.7" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="akka-persistence-cassandra_2.11" type="jar" ext="jar" status="no" details="" size="110264" time="0" location="/home/peyton/.ivy2/cache/com.github.krasserm/akka-persistence-cassandra_2.11/jars/akka-persistence-cassandra_2.11-0.3.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/krasserm/akka-persistence-cassandra_2.11/0.3.7/akka-persistence-cassandra_2.11-0.3.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.muvr" name="exercise_2.11">
+			<revision name="1.0.0-SNAPSHOT" status="integration" pubdate="20151123085754" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="io.muvr" name="main_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-simple">
+			<revision name="1.7.12" status="release" pubdate="20150326155000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="40">
+				<metadata-artifact status="no" details="" size="4693" time="0" location="/home/peyton/.ivy2/cache/org.slf4j/slf4j-simple/ivy-1.7.12.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/slf4j-simple/1.7.12/slf4j-simple-1.7.12.pom"/>
+				<caller organisation="io.muvr" name="exercise_2.11" conf="compile" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="main_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="slf4j-simple" type="jar" ext="jar" status="no" details="" size="10712" time="0" location="/home/peyton/.ivy2/cache/org.slf4j/slf4j-simple/jars/slf4j-simple-1.7.12.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-simple/1.7.12/slf4j-simple-1.7.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.12" status="release" pubdate="20150326155000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<metadata-artifact status="no" details="" size="4648" time="0" location="/home/peyton/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.12.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom"/>
+				<caller organisation="com.notnoop.apns" name="apns" conf="default, compile, runtime, master" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="1.0.0.Beta6"/>
+				<caller organisation="org.slf4j" name="slf4j-simple" conf="default, compile, runtime, master" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="1.7.12"/>
+				<caller organisation="com.codahale.metrics" name="metrics-core" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="3.0.2"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="32127" time="0" location="/home/peyton/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.12.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.7.5" status="release" pubdate="20130325155215" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<metadata-artifact status="no" details="" size="4293" time="0" location="/home/peyton/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom"/>
+				<evicted-by rev="1.7.12"/>
+				<caller organisation="com.notnoop.apns" name="apns" conf="default, compile, runtime, master" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="1.0.0.Beta6"/>
+				<caller organisation="com.codahale.metrics" name="metrics-core" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="3.0.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.7.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.7.5"/>
+				<caller organisation="com.notnoop.apns" name="apns" conf="default, compile, runtime, master" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="1.0.0.Beta6"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.notnoop.apns" name="apns">
+			<revision name="1.0.0.Beta6" status="release" pubdate="20150206033000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://notnoop.github.com/java-apns" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="33">
+				<license name="New BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="4267" time="0" location="/home/peyton/.ivy2/cache/com.notnoop.apns/apns/ivy-1.0.0.Beta6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/notnoop/apns/apns/1.0.0.Beta6/apns-1.0.0.Beta6.pom"/>
+				<caller organisation="io.muvr" name="notification_2.11" conf="compile" rev="1.0.0.Beta6" rev-constraint-default="1.0.0.Beta6" rev-constraint-dynamic="1.0.0.Beta6" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="exercise_2.11" conf="compile" rev="1.0.0.Beta6" rev-constraint-default="1.0.0.Beta6" rev-constraint-dynamic="1.0.0.Beta6" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="main_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.0.0.Beta6" rev-constraint-default="1.0.0.Beta6" rev-constraint-dynamic="1.0.0.Beta6" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="apns" type="jar" ext="jar" status="no" details="" size="62426" time="0" location="/home/peyton/.ivy2/cache/com.notnoop.apns/apns/jars/apns-1.0.0.Beta6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/notnoop/apns/apns/1.0.0.Beta6/apns-1.0.0.Beta6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.1.4" status="release" pubdate="20130226171816" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<metadata-artifact status="no" details="" size="6190" time="0" location="/home/peyton/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.1.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.1.4/jackson-databind-2.1.4.pom"/>
+				<caller organisation="com.notnoop.apns" name="apns" conf="default, compile, runtime, master" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="1.0.0.Beta6"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="jar" ext="jar" status="no" details="" size="926562" time="0" location="/home/peyton/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/jars/jackson-databind-2.1.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.1.4/jackson-databind-2.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.1.4" status="release" pubdate="20130226170824" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<metadata-artifact status="no" details="" size="4475" time="0" location="/home/peyton/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.1.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.1.4/jackson-core-2.1.4.pom"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="2.1.4"/>
+				<artifacts>
+					<artifact name="jackson-core" type="jar" ext="jar" status="no" details="" size="206866" time="0" location="/home/peyton/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/jars/jackson-core-2.1.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.1.4/jackson-core-2.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.1.4" status="release" pubdate="20130226171038" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<metadata-artifact status="no" details="" size="4149" time="0" location="/home/peyton/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.1.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.1.4/jackson-annotations-2.1.4.pom"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="2.1.4"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="jar" ext="jar" status="no" details="" size="34476" time="0" location="/home/peyton/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/jars/jackson-annotations-2.1.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.1.4/jackson-annotations-2.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-httpclient" name="commons-httpclient">
+			<revision name="3.1" status="release" pubdate="20080831064526" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/httpcomponents/httpclient-3.x/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="Apache License" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3297" time="0" location="/home/peyton/.ivy2/cache/commons-httpclient/commons-httpclient/ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.pom"/>
+				<caller organisation="com.notnoop.apns" name="apns" conf="default, compile, runtime, master" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="1.0.0.Beta6"/>
+				<artifacts>
+					<artifact name="commons-httpclient" type="jar" ext="jar" status="no" details="" size="305001" time="0" location="/home/peyton/.ivy2/cache/commons-httpclient/commons-httpclient/jars/commons-httpclient-3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.2" status="release" pubdate="20080831064457" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<metadata-artifact status="no" details="" size="2663" time="0" location="/home/peyton/.ivy2/cache/commons-codec/commons-codec/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-codec/commons-codec/1.2/commons-codec-1.2.pom"/>
+				<caller organisation="commons-httpclient" name="commons-httpclient" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="3.1"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="30085" time="0" location="/home/peyton/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-codec/commons-codec/1.2/commons-codec-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.0.4" status="release" pubdate="20080831064520" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/commons/logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3141" time="0" location="/home/peyton/.ivy2/cache/commons-logging/commons-logging/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.pom"/>
+				<caller organisation="commons-httpclient" name="commons-httpclient" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="3.1"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="38015" time="0" location="/home/peyton/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.0.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.muvr" name="exercise-protocol-marshalling_2.11">
+			<revision name="1.0.0-SNAPSHOT" status="integration" pubdate="20151123085650" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="31">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="io.muvr" name="exercise_2.11" conf="compile" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.muvr" name="common-protocol-marshalling_2.11">
+			<revision name="1.0.0-SNAPSHOT" status="integration" pubdate="20151123085650" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="32">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="io.muvr" name="exercise-protocol-marshalling_2.11" conf="compile" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="profile_2.11" conf="compile" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="exercise_2.11" conf="compile" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.muvr" name="exercise-protocol_2.11">
+			<revision name="1.0.0-SNAPSHOT" status="integration" pubdate="20151123085650" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="30">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="io.muvr" name="exercise-protocol-marshalling_2.11" conf="compile" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="exercise_2.11" conf="compile" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.muvr" name="profile-protocol_2.11">
+			<revision name="1.0.0-SNAPSHOT" status="integration" pubdate="20151123085650" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="29">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="io.muvr" name="profile_2.11" conf="compile" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="exercise_2.11" conf="compile" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.muvr" name="notification-protocol_2.11">
+			<revision name="1.0.0-SNAPSHOT" status="integration" pubdate="20151123085650" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="2">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="io.muvr" name="notification_2.11" conf="compile" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="exercise_2.11" conf="compile" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="profile-protocol_2.11" conf="compile" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.muvr" name="common_2.11">
+			<revision name="1.0.0-SNAPSHOT" status="integration" pubdate="20151123085650" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="3">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="io.muvr" name="exercise-protocol-marshalling_2.11" conf="compile" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="profile_2.11" conf="compile" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="notification_2.11" conf="compile" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="exercise_2.11" conf="compile" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="exercise-protocol_2.11" conf="compile" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="main_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="profile-protocol_2.11" conf="compile" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="notification-protocol_2.11" conf="compile" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.datastax.cassandra" name="cassandra-driver-core">
+			<revision name="2.1.5" status="release" pubdate="20150316091200" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/datastax/java-driver" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="27">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5376" time="0" location="/home/peyton/.ivy2/cache/com.datastax.cassandra/cassandra-driver-core/ivy-2.1.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/datastax/cassandra/cassandra-driver-core/2.1.5/cassandra-driver-core-2.1.5.pom"/>
+				<caller organisation="io.muvr" name="common_2.11" conf="compile" rev="2.1.5" rev-constraint-default="2.1.5" rev-constraint-dynamic="2.1.5" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="cassandra-driver-core" type="bundle" ext="jar" status="no" details="" size="726778" time="0" location="/home/peyton/.ivy2/cache/com.datastax.cassandra/cassandra-driver-core/bundles/cassandra-driver-core-2.1.5.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/datastax/cassandra/cassandra-driver-core/2.1.5/cassandra-driver-core-2.1.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.codahale.metrics" name="metrics-core">
+			<revision name="3.0.2" status="release" pubdate="20140216183100" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<metadata-artifact status="no" details="" size="4762" time="0" location="/home/peyton/.ivy2/cache/com.codahale.metrics/metrics-core/ivy-3.0.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/codahale/metrics/metrics-core/3.0.2/metrics-core-3.0.2.pom"/>
+				<caller organisation="com.datastax.cassandra" name="cassandra-driver-core" conf="default, compile, runtime, master" rev="3.0.2" rev-constraint-default="3.0.2" rev-constraint-dynamic="3.0.2" callerrev="2.1.5"/>
+				<artifacts>
+					<artifact name="metrics-core" type="bundle" ext="jar" status="no" details="" size="85448" time="0" location="/home/peyton/.ivy2/cache/com.codahale.metrics/metrics-core/bundles/metrics-core-3.0.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/codahale/metrics/metrics-core/3.0.2/metrics-core-3.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-core_2.11">
+			<revision name="7.1.3" status="release" pubdate="20150619105900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="24">
+				<license name="BSD-style" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2964" time="0" location="/home/peyton/.ivy2/cache/org.scalaz/scalaz-core_2.11/ivy-7.1.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalaz/scalaz-core_2.11/7.1.3/scalaz-core_2.11-7.1.3.pom"/>
+				<caller organisation="io.muvr" name="profile_2.11" conf="compile" rev="7.1.3" rev-constraint-default="7.1.3" rev-constraint-dynamic="7.1.3" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="exercise_2.11" conf="compile" rev="7.1.3" rev-constraint-default="7.1.3" rev-constraint-dynamic="7.1.3" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="main_2.11" conf="compile, runtime-internal, runtime, optional" rev="7.1.3" rev-constraint-default="7.1.3" rev-constraint-dynamic="7.1.3" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="common_2.11" conf="compile" rev="7.1.3" rev-constraint-default="7.1.3" rev-constraint-dynamic="7.1.3" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalaz-core_2.11" type="bundle" ext="jar" status="no" details="" size="10198729" time="0" location="/home/peyton/.ivy2/cache/org.scalaz/scalaz-core_2.11/bundles/scalaz-core_2.11-7.1.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaz/scalaz-core_2.11/7.1.3/scalaz-core_2.11-7.1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
+			<revision name="1.0.4" status="release" pubdate="20150430085300" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3137" time="0" location="/home/peyton/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom"/>
+				<caller organisation="io.spray" name="spray-httpx_2.11" conf="compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.3.3"/>
+				<caller organisation="org.scalaz" name="scalaz-core_2.11" conf="default, compile, runtime, master" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="7.1.3"/>
+				<artifacts>
+					<artifact name="scala-xml_2.11" type="bundle" ext="jar" status="no" details="" size="647891" time="0" location="/home/peyton/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.0.3" status="release" pubdate="20141204141800" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3137" time="0" location="/home/peyton/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3.pom"/>
+				<evicted-by rev="1.0.4"/>
+				<caller organisation="io.spray" name="spray-httpx_2.11" conf="compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.3.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
+			<revision name="1.0.4" status="release" pubdate="20150430090700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2929" time="0" location="/home/peyton/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom"/>
+				<caller organisation="org.scalaz" name="scalaz-core_2.11" conf="default, compile, runtime, master" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="7.1.3"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.11" type="bundle" ext="jar" status="no" details="" size="423753" time="0" location="/home/peyton/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-json_2.11">
+			<revision name="1.3.2" status="release" pubdate="20150506090100" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spray/spray-json" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3083" time="0" location="/home/peyton/.ivy2/cache/io.spray/spray-json_2.11/ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.pom"/>
+				<caller organisation="io.muvr" name="common-protocol-marshalling_2.11" conf="compile" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="exercise-protocol-marshalling_2.11" conf="compile" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="profile_2.11" conf="compile" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="exercise_2.11" conf="compile" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="main_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="common_2.11" conf="compile" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spray-json_2.11" type="bundle" ext="jar" status="no" details="" size="286389" time="0" location="/home/peyton/.ivy2/cache/io.spray/spray-json_2.11/bundles/spray-json_2.11-1.3.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-routing-shapeless2_2.11">
+			<revision name="1.3.3" status="release" pubdate="20150324084900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="15">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3772" time="0" location="/home/peyton/.ivy2/cache/io.spray/spray-routing-shapeless2_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-routing-shapeless2_2.11/1.3.3/spray-routing-shapeless2_2.11-1.3.3.pom"/>
+				<caller organisation="io.muvr" name="common-protocol-marshalling_2.11" conf="compile" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="profile_2.11" conf="compile" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="exercise_2.11" conf="compile" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="main_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="common_2.11" conf="compile" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spray-routing-shapeless2_2.11" type="bundle" ext="jar" status="no" details="" size="1081029" time="0" location="/home/peyton/.ivy2/cache/io.spray/spray-routing-shapeless2_2.11/bundles/spray-routing-shapeless2_2.11-1.3.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-routing-shapeless2_2.11/1.3.3/spray-routing-shapeless2_2.11-1.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.chuusai" name="shapeless_2.11">
+			<revision name="2.1.0" status="release" pubdate="20150209174400" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="Apache License" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3093" time="0" location="/home/peyton/.ivy2/cache/com.chuusai/shapeless_2.11/ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/chuusai/shapeless_2.11/2.1.0/shapeless_2.11-2.1.0.pom"/>
+				<caller organisation="io.spray" name="spray-routing-shapeless2_2.11" conf="default, compile, runtime, master" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="1.3.3"/>
+				<artifacts>
+					<artifact name="shapeless_2.11" type="bundle" ext="jar" status="no" details="" size="2572570" time="0" location="/home/peyton/.ivy2/cache/com.chuusai/shapeless_2.11/bundles/shapeless_2.11-2.1.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/chuusai/shapeless_2.11/2.1.0/shapeless_2.11-2.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-httpx_2.11">
+			<revision name="1.3.3" status="release" pubdate="20150324085100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4640" time="0" location="/home/peyton/.ivy2/cache/io.spray/spray-httpx_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-httpx_2.11/1.3.3/spray-httpx_2.11-1.3.3.pom"/>
+				<caller organisation="io.spray" name="spray-routing-shapeless2_2.11" conf="default, compile, runtime, master" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.3.3"/>
+				<caller organisation="io.spray" name="spray-client_2.11" conf="default, compile, runtime, master" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.3.3"/>
+				<artifacts>
+					<artifact name="spray-httpx_2.11" type="bundle" ext="jar" status="no" details="" size="437070" time="0" location="/home/peyton/.ivy2/cache/io.spray/spray-httpx_2.11/bundles/spray-httpx_2.11-1.3.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-httpx_2.11/1.3.3/spray-httpx_2.11-1.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jvnet.mimepull" name="mimepull">
+			<revision name="1.9.5" status="release" pubdate="20150313061000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://mimepull.java.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="CDDL 1.1" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<license name="GPL2 w/ CPE" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="3953" time="0" location="/home/peyton/.ivy2/cache/org.jvnet.mimepull/mimepull/ivy-1.9.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/jvnet/mimepull/mimepull/1.9.5/mimepull-1.9.5.pom"/>
+				<caller organisation="io.spray" name="spray-httpx_2.11" conf="compile, runtime" rev="1.9.5" rev-constraint-default="1.9.5" rev-constraint-dynamic="1.9.5" callerrev="1.3.3"/>
+				<artifacts>
+					<artifact name="mimepull" type="jar" ext="jar" status="no" details="" size="63621" time="0" location="/home/peyton/.ivy2/cache/org.jvnet.mimepull/mimepull/jars/mimepull-1.9.5.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jvnet/mimepull/mimepull/1.9.5/mimepull-1.9.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-can_2.11">
+			<revision name="1.3.3" status="release" pubdate="20150324084800" resolver="jcenter" artresolver="jcenter" homepage="http://spray.io" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="48">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2766" time="174" location="/home/peyton/.ivy2/cache/io.spray/spray-can_2.11/ivy-1.3.3.xml" searched="true" original-local-location="/home/peyton/.ivy2/cache/io.spray/spray-can_2.11/ivy-1.3.3.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-can_2.11/1.3.3/spray-can_2.11-1.3.3.pom"/>
+				<caller organisation="io.muvr" name="main_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.spray" name="spray-client_2.11" conf="default, compile, runtime, master" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.3.3"/>
+				<artifacts>
+					<artifact name="spray-can_2.11" type="bundle" ext="jar" status="successful" details="" size="720710" time="1677" location="/home/peyton/.ivy2/cache/io.spray/spray-can_2.11/bundles/spray-can_2.11-1.3.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-can_2.11/1.3.3/spray-can_2.11-1.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-io_2.11">
+			<revision name="1.3.3" status="release" pubdate="20150324085200" resolver="jcenter" artresolver="jcenter" homepage="http://spray.io" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2382" time="171" location="/home/peyton/.ivy2/cache/io.spray/spray-io_2.11/ivy-1.3.3.xml" searched="true" original-local-location="/home/peyton/.ivy2/cache/io.spray/spray-io_2.11/ivy-1.3.3.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-io_2.11/1.3.3/spray-io_2.11-1.3.3.pom"/>
+				<caller organisation="io.spray" name="spray-can_2.11" conf="default, compile, runtime, master" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.3.3"/>
+				<artifacts>
+					<artifact name="spray-io_2.11" type="bundle" ext="jar" status="successful" details="" size="189178" time="347" location="/home/peyton/.ivy2/cache/io.spray/spray-io_2.11/bundles/spray-io_2.11-1.3.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-io_2.11/1.3.3/spray-io_2.11-1.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-http_2.11">
+			<revision name="1.3.3" status="release" pubdate="20150324085100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3296" time="0" location="/home/peyton/.ivy2/cache/io.spray/spray-http_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-http_2.11/1.3.3/spray-http_2.11-1.3.3.pom"/>
+				<caller organisation="io.spray" name="spray-httpx_2.11" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.3.3"/>
+				<caller organisation="io.spray" name="spray-routing-shapeless2_2.11" conf="default, compile, runtime, master" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.3.3"/>
+				<caller organisation="io.spray" name="spray-can_2.11" conf="default, compile, runtime, master" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.3.3"/>
+				<caller organisation="io.spray" name="spray-io_2.11" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.3.3"/>
+				<caller organisation="io.spray" name="spray-client_2.11" conf="default, compile, runtime, master" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.3.3"/>
+				<artifacts>
+					<artifact name="spray-http_2.11" type="bundle" ext="jar" status="no" details="" size="1502842" time="0" location="/home/peyton/.ivy2/cache/io.spray/spray-http_2.11/bundles/spray-http_2.11-1.3.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-http_2.11/1.3.3/spray-http_2.11-1.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-scala_2.11">
+			<revision name="1.1.7" status="release" pubdate="20150209101100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3094" time="0" location="/home/peyton/.ivy2/cache/org.parboiled/parboiled-scala_2.11/ivy-1.1.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.7/parboiled-scala_2.11-1.1.7.pom"/>
+				<caller organisation="io.spray" name="spray-http_2.11" conf="compile, runtime" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="1.3.3"/>
+				<artifacts>
+					<artifact name="parboiled-scala_2.11" type="jar" ext="jar" status="no" details="" size="233224" time="0" location="/home/peyton/.ivy2/cache/org.parboiled/parboiled-scala_2.11/jars/parboiled-scala_2.11-1.1.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.7/parboiled-scala_2.11-1.1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-core">
+			<revision name="1.1.7" status="release" pubdate="20150209101200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2789" time="0" location="/home/peyton/.ivy2/cache/org.parboiled/parboiled-core/ivy-1.1.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7.pom"/>
+				<caller organisation="org.parboiled" name="parboiled-scala_2.11" conf="compile, runtime" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="1.1.7"/>
+				<artifacts>
+					<artifact name="parboiled-core" type="jar" ext="jar" status="no" details="" size="186607" time="0" location="/home/peyton/.ivy2/cache/org.parboiled/parboiled-core/jars/parboiled-core-1.1.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-util_2.11">
+			<revision name="1.3.3" status="release" pubdate="20150324084800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3283" time="0" location="/home/peyton/.ivy2/cache/io.spray/spray-util_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-util_2.11/1.3.3/spray-util_2.11-1.3.3.pom"/>
+				<caller organisation="io.spray" name="spray-httpx_2.11" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.3.3"/>
+				<caller organisation="io.spray" name="spray-routing-shapeless2_2.11" conf="default, compile, runtime, master" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.3.3"/>
+				<caller organisation="io.spray" name="spray-can_2.11" conf="default, compile, runtime, master" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.3.3"/>
+				<caller organisation="io.spray" name="spray-io_2.11" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.3.3"/>
+				<caller organisation="io.spray" name="spray-http_2.11" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.3.3"/>
+				<caller organisation="io.spray" name="spray-client_2.11" conf="default, compile, runtime, master" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.3.3"/>
+				<artifacts>
+					<artifact name="spray-util_2.11" type="bundle" ext="jar" status="no" details="" size="128702" time="0" location="/home/peyton/.ivy2/cache/io.spray/spray-util_2.11/bundles/spray-util_2.11-1.3.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/spray/spray-util_2.11/1.3.3/spray-util_2.11-1.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-contrib_2.11">
+			<revision name="2.3.12" status="release" pubdate="20150709102119" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4026" time="0" location="/home/peyton/.ivy2/cache/com.typesafe.akka/akka-contrib_2.11/ivy-2.3.12.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-contrib_2.11/2.3.12/akka-contrib_2.11-2.3.12.pom"/>
+				<caller organisation="io.muvr" name="profile_2.11" conf="compile" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="notification_2.11" conf="compile" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="exercise_2.11" conf="compile" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="main_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="common_2.11" conf="compile" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="profile-protocol_2.11" conf="compile" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="notification-protocol_2.11" conf="compile" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="akka-contrib_2.11" type="jar" ext="jar" status="no" details="" size="830629" time="0" location="/home/peyton/.ivy2/cache/com.typesafe.akka/akka-contrib_2.11/jars/akka-contrib_2.11-2.3.12.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-contrib_2.11/2.3.12/akka-contrib_2.11-2.3.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-persistence-experimental_2.11">
+			<revision name="2.3.12" status="release" pubdate="20150709071555" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4488" time="0" location="/home/peyton/.ivy2/cache/com.typesafe.akka/akka-persistence-experimental_2.11/ivy-2.3.12.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-persistence-experimental_2.11/2.3.12/akka-persistence-experimental_2.11-2.3.12.pom"/>
+				<caller organisation="io.muvr" name="exercise_2.11" conf="compile" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="main_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="common_2.11" conf="compile" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="akka-persistence-experimental_2.11" type="jar" ext="jar" status="no" details="" size="831949" time="0" location="/home/peyton/.ivy2/cache/com.typesafe.akka/akka-persistence-experimental_2.11/jars/akka-persistence-experimental_2.11-2.3.12.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-persistence-experimental_2.11/2.3.12/akka-persistence-experimental_2.11-2.3.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-cluster_2.11">
+			<revision name="2.3.12" status="release" pubdate="20150709071526" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3310" time="0" location="/home/peyton/.ivy2/cache/com.typesafe.akka/akka-cluster_2.11/ivy-2.3.12.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-cluster_2.11/2.3.12/akka-cluster_2.11-2.3.12.pom"/>
+				<caller organisation="io.muvr" name="profile_2.11" conf="compile" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="notification_2.11" conf="compile" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="exercise_2.11" conf="compile" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="main_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="common_2.11" conf="compile" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="profile-protocol_2.11" conf="compile" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="notification-protocol_2.11" conf="compile" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="akka-cluster_2.11" type="jar" ext="jar" status="no" details="" size="1067938" time="0" location="/home/peyton/.ivy2/cache/com.typesafe.akka/akka-cluster_2.11/jars/akka-cluster_2.11-2.3.12.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-cluster_2.11/2.3.12/akka-cluster_2.11-2.3.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-remote_2.11">
+			<revision name="2.3.12" status="release" pubdate="20150709102325" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3952" time="0" location="/home/peyton/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/ivy-2.3.12.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-remote_2.11/2.3.12/akka-remote_2.11-2.3.12.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-cluster_2.11" conf="default, compile, runtime, master" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="2.3.12"/>
+				<artifacts>
+					<artifact name="akka-remote_2.11" type="jar" ext="jar" status="no" details="" size="1339889" time="0" location="/home/peyton/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/jars/akka-remote_2.11-2.3.12.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-remote_2.11/2.3.12/akka-remote_2.11-2.3.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.uncommons.maths" name="uncommons-maths">
+			<revision name="1.2.2a" status="release" pubdate="20110408085605" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://maths.uncommons.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2876" time="0" location="/home/peyton/.ivy2/cache/org.uncommons.maths/uncommons-maths/ivy-1.2.2a.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.11" conf="compile, runtime" rev="1.2.2a" rev-constraint-default="1.2.2a" rev-constraint-dynamic="1.2.2a" callerrev="2.3.12"/>
+				<artifacts>
+					<artifact name="uncommons-maths" type="jar" ext="jar" status="no" details="" size="49019" time="0" location="/home/peyton/.ivy2/cache/org.uncommons.maths/uncommons-maths/jars/uncommons-maths-1.2.2a.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.8.0.Final" status="release" pubdate="20131110044654" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6647" time="0" location="/home/peyton/.ivy2/cache/io.netty/netty/ivy-3.8.0.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.11" conf="compile, runtime" rev="3.8.0.Final" rev-constraint-default="3.8.0.Final" rev-constraint-dynamic="3.8.0.Final" callerrev="2.3.12"/>
+				<artifacts>
+					<artifact name="netty" type="bundle" ext="jar" status="no" details="" size="1230201" time="0" location="/home/peyton/.ivy2/cache/io.netty/netty/bundles/netty-3.8.0.Final.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="2.5.0" status="release" pubdate="20130307181811" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/protobuf" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3139" time="0" location="/home/peyton/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.11" conf="compile, runtime" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="2.3.12"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="bundle" ext="jar" status="no" details="" size="533455" time="0" location="/home/peyton/.ivy2/cache/com.google.protobuf/protobuf-java/bundles/protobuf-java-2.5.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
+			<revision name="2.3.12" status="release" pubdate="20150709071329" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="6">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2793" time="0" location="/home/peyton/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.3.12.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.12/akka-actor_2.11-2.3.12.pom"/>
+				<caller organisation="io.muvr" name="common-protocol-marshalling_2.11" conf="compile" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="profile_2.11" conf="compile" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="notification_2.11" conf="compile" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="exercise_2.11" conf="compile" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="main_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="common_2.11" conf="compile" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="profile-protocol_2.11" conf="compile" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="notification-protocol_2.11" conf="compile" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.11" conf="compile, runtime" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="2.3.12"/>
+				<artifacts>
+					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="no" details="" size="2792073" time="0" location="/home/peyton/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.12.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.12/akka-actor_2.11-2.3.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.2.1" status="release" pubdate="20140502095400" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2878" time="0" location="/home/peyton/.ivy2/cache/com.typesafe/config/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/config/1.2.1/config-1.2.1.pom"/>
+				<caller organisation="com.twitter" name="chill-akka_2.11" conf="default, compile, runtime, master" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.5.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.11" conf="default, compile, runtime, master" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="2.3.12"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="219554" time="0" location="/home/peyton/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/config/1.2.1/config-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.muvr" name="common-protocol_2.11">
+			<revision name="1.0.0-SNAPSHOT" status="integration" pubdate="20151123085628" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="4">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="io.muvr" name="common-protocol-marshalling_2.11" conf="compile" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="exercise-protocol-marshalling_2.11" conf="compile" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="exercise-protocol_2.11" conf="compile" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="common_2.11" conf="compile" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.11">
+			<revision name="0.5.0" status="release" pubdate="20150521205900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2911" time="0" location="/home/peyton/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/ivy-0.5.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-java8-compat_2.11/0.5.0/scala-java8-compat_2.11-0.5.0.pom"/>
+				<caller organisation="io.muvr" name="common-protocol-marshalling_2.11" conf="compile" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="exercise-protocol-marshalling_2.11" conf="compile" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="profile_2.11" conf="compile" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="notification_2.11" conf="compile" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="common-protocol_2.11" conf="compile" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="exercise_2.11" conf="compile" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="exercise-protocol_2.11" conf="compile" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="main_2.11" conf="compile, runtime-internal, runtime, optional" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="common_2.11" conf="compile" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="profile-protocol_2.11" conf="compile" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="notification-protocol_2.11" conf="compile" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="1.0.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.11" type="bundle" ext="jar" status="no" details="" size="146262" time="0" location="/home/peyton/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.5.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-java8-compat_2.11/0.5.0/scala-java8-compat_2.11-0.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.7" status="release" pubdate="20150803110311" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/peyton/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom"/>
+				<caller organisation="io.muvr" name="profile_2.11" conf="compile" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="notification_2.11" conf="compile" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="com.twitter" name="chill_2.11" conf="compile, runtime" rev="2.11.2" rev-constraint-default="2.11.2" rev-constraint-dynamic="2.11.2" callerrev="0.5.0"/>
+				<caller organisation="io.muvr" name="common-protocol_2.11" conf="compile" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="main_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.muvr" name="common-protocol-marshalling_2.11" conf="compile" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.spray" name="spray-httpx_2.11" conf="compile, runtime" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.3.3"/>
+				<caller organisation="io.spray" name="spray-routing-shapeless2_2.11" conf="default, compile, runtime, master" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.3.3"/>
+				<caller organisation="io.spray" name="spray-can_2.11" conf="default, compile, runtime, master" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.3.3"/>
+				<caller organisation="com.chuusai" name="shapeless_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="2.1.0"/>
+				<caller organisation="io.spray" name="spray-util_2.11" conf="compile, runtime" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.3.3"/>
+				<caller organisation="io.muvr" name="exercise_2.11" conf="compile" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="org.scala-lang.modules" name="scala-java8-compat_2.11" conf="default, compile, runtime, master" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="0.5.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.11" conf="default, compile, runtime, master" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="2.3.12"/>
+				<caller organisation="org.scalaz" name="scalaz-core_2.11" conf="default, compile, runtime, master" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="7.1.3"/>
+				<caller organisation="io.muvr" name="profile-protocol_2.11" conf="compile" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="2.3.12"/>
+				<caller organisation="com.typesafe.akka" name="akka-cluster_2.11" conf="default, compile, runtime, master" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="2.3.12"/>
+				<caller organisation="io.spray" name="spray-http_2.11" conf="compile, runtime" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.3.3"/>
+				<caller organisation="io.muvr" name="notification-protocol_2.11" conf="compile" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.spray" name="spray-json_2.11" conf="default, compile, runtime, master" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.3.2"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="1.0.4"/>
+				<caller organisation="io.muvr" name="exercise-protocol-marshalling_2.11" conf="compile" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.spray" name="spray-io_2.11" conf="compile, runtime" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.3.3"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="1.0.3"/>
+				<caller organisation="io.muvr" name="exercise-protocol_2.11" conf="compile" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="org.parboiled" name="parboiled-scala_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="1.1.7"/>
+				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11" conf="compile, runtime" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.0.4"/>
+				<caller organisation="com.twitter" name="chill-akka_2.11" conf="default, compile, runtime, master" rev="2.11.2" rev-constraint-default="2.11.2" rev-constraint-dynamic="2.11.2" callerrev="0.5.0"/>
+				<caller organisation="io.muvr" name="common_2.11" conf="compile" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0.0-SNAPSHOT"/>
+				<caller organisation="io.spray" name="spray-client_2.11" conf="default, compile, runtime, master" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.3.3"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5745606" time="0" location="/home/peyton/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.11.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.11.7"/>
+				<caller organisation="com.twitter" name="chill_2.11" conf="compile, runtime" rev="2.11.2" rev-constraint-default="2.11.2" rev-constraint-dynamic="2.11.2" callerrev="0.5.0"/>
+				<caller organisation="com.twitter" name="chill-akka_2.11" conf="default, compile, runtime, master" rev="2.11.2" rev-constraint-default="2.11.2" rev-constraint-dynamic="2.11.2" callerrev="0.5.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.11.4" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*)" position="-1">
+				<evicted-by rev="2.11.7"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="1.0.3"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="1.0.4"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.11.6" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.11.7"/>
+				<caller organisation="com.typesafe.akka" name="akka-cluster_2.11" conf="default, compile, runtime, master" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="2.3.12"/>
+				<caller organisation="io.spray" name="spray-http_2.11" conf="compile, runtime" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.3.3"/>
+				<caller organisation="io.spray" name="spray-json_2.11" conf="default, compile, runtime, master" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.3.2"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="1.0.4"/>
+				<caller organisation="io.spray" name="spray-httpx_2.11" conf="compile, runtime" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.3.3"/>
+				<caller organisation="io.spray" name="spray-routing-shapeless2_2.11" conf="default, compile, runtime, master" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.3.3"/>
+				<caller organisation="io.spray" name="spray-can_2.11" conf="default, compile, runtime, master" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.3.3"/>
+				<caller organisation="io.spray" name="spray-io_2.11" conf="compile, runtime" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.3.3"/>
+				<caller organisation="com.chuusai" name="shapeless_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="2.1.0"/>
+				<caller organisation="io.spray" name="spray-util_2.11" conf="compile, runtime" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.3.3"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="1.0.3"/>
+				<caller organisation="org.parboiled" name="parboiled-scala_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="1.1.7"/>
+				<caller organisation="org.scala-lang.modules" name="scala-java8-compat_2.11" conf="default, compile, runtime, master" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="0.5.0"/>
+				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11" conf="compile, runtime" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.0.4"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.11" conf="default, compile, runtime, master" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="2.3.12"/>
+				<caller organisation="org.scalaz" name="scalaz-core_2.11" conf="default, compile, runtime, master" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="7.1.3"/>
+				<caller organisation="io.spray" name="spray-client_2.11" conf="default, compile, runtime, master" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.3.3"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="2.3.12"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.11.5" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.11.7"/>
+				<caller organisation="com.typesafe.akka" name="akka-cluster_2.11" conf="default, compile, runtime, master" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="2.3.12"/>
+				<caller organisation="com.chuusai" name="shapeless_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="2.1.0"/>
+				<caller organisation="org.parboiled" name="parboiled-scala_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="1.1.7"/>
+				<caller organisation="org.scala-lang.modules" name="scala-java8-compat_2.11" conf="default, compile, runtime, master" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="0.5.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.11" conf="default, compile, runtime, master" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="2.3.12"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.11" conf="compile, runtime" rev="2.11.5" rev-constraint-default="2.11.5" rev-constraint-dynamic="2.11.5" callerrev="2.3.12"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

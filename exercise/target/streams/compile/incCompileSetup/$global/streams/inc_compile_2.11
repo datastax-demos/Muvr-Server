@@ -1,0 +1,373 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/peyton/Documents/muvr-server/exercise/target/classes
+compile options:
+18 items
+00 -> -encoding
+01 -> UTF-8
+02 -> -target:jvm-1.8
+03 -> -Ybackend:GenBCode
+04 -> -Ydelambdafy:method
+05 -> -deprecation
+06 -> -unchecked
+07 -> -Ywarn-dead-code
+08 -> -feature
+09 -> -encoding
+10 -> UTF-8
+11 -> -target:jvm-1.8
+12 -> -Ybackend:GenBCode
+13 -> -Ydelambdafy:method
+14 -> -deprecation
+15 -> -unchecked
+16 -> -Ywarn-dead-code
+17 -> -feature
+javac options:
+14 items
+00 -> -source
+01 -> 1.8
+02 -> -target
+03 -> 1.8
+04 -> -Xlint:unchecked
+05 -> -Xlint:deprecation
+06 -> -Xlint:-options
+07 -> -source
+08 -> 1.8
+09 -> -target
+10 -> 1.8
+11 -> -Xlint:unchecked
+12 -> -Xlint:deprecation
+13 -> -Xlint:-options
+compiler version:
+1 items
+0 -> 2.11.7
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+0 items
+binary dependencies:
+26 items
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> /home/peyton/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.12.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> /home/peyton/.ivy2/cache/com.typesafe.akka/akka-contrib_2.11/jars/akka-contrib_2.11-2.3.12.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> /home/peyton/.ivy2/cache/io.spray/spray-routing-shapeless2_2.11/bundles/spray-routing-shapeless2_2.11-1.3.3.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> /home/peyton/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> /home/peyton/.ivy2/cache/com.chuusai/shapeless_2.11/bundles/shapeless_2.11-2.1.0.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> /home/peyton/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.12.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> /home/peyton/.ivy2/cache/io.spray/spray-httpx_2.11/bundles/spray-httpx_2.11-1.3.3.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> /home/peyton/.ivy2/cache/io.spray/spray-routing-shapeless2_2.11/bundles/spray-routing-shapeless2_2.11-1.3.3.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> /home/peyton/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> /home/peyton/.ivy2/cache/org.scalaz/scalaz-core_2.11/bundles/scalaz-core_2.11-7.1.3.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> /home/peyton/Documents/muvr-server/common-protocol-marshalling/target/common-protocol-marshalling_2.11-1.0.0-SNAPSHOT.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> /home/peyton/Documents/muvr-server/common-protocol/target/common-protocol_2.11-1.0.0-SNAPSHOT.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> /home/peyton/Documents/muvr-server/common/target/common_2.11-1.0.0-SNAPSHOT.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> /home/peyton/Documents/muvr-server/exercise-protocol-marshalling/target/exercise-protocol-marshalling_2.11-1.0.0-SNAPSHOT.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> /home/peyton/Documents/muvr-server/exercise-protocol/target/exercise-protocol_2.11-1.0.0-SNAPSHOT.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> /home/peyton/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.12.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> /home/peyton/.ivy2/cache/com.typesafe.akka/akka-contrib_2.11/jars/akka-contrib_2.11-2.3.12.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> /home/peyton/.ivy2/cache/com.typesafe.akka/akka-persistence-experimental_2.11/jars/akka-persistence-experimental_2.11-2.3.12.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> /home/peyton/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> /home/peyton/.ivy2/cache/org.scalaz/scalaz-core_2.11/bundles/scalaz-core_2.11-7.1.3.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> /home/peyton/Documents/muvr-server/common-protocol/target/common-protocol_2.11-1.0.0-SNAPSHOT.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> /home/peyton/Documents/muvr-server/common/target/common_2.11-1.0.0-SNAPSHOT.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> /home/peyton/Documents/muvr-server/exercise-protocol/target/exercise-protocol_2.11-1.0.0-SNAPSHOT.jar
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+3 items
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> /home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> /home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> /home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+0 items
+used names:
+208 items
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> &&
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> <init>
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> ==
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> ActorRef
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> ActorSystem
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> AnyRef
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> ClusterSharding
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> ExecutionContext
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> ExerciseBoot
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> ExerciseService
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> None
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> Product
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> Route
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> ScalaRunTime
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> Serializable
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> UserExerciseProcessor
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> _hashCode
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> _toString
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> actor
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> akka
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> apply
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> asInstanceOf
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> concurrent
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> contrib
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> ec
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> eq
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> exercise
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> exerciseProcessor
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> idExtractor
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> io
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> isInstanceOf
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> muvr
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> package
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> pattern
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> props
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> route
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> routing
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> runtime
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> scala
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> shardName
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> shardResolver
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> spray
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> start
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> system
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> toString
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> typedProductIterator
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> ||
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> !
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> /
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> <init>
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> ?
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> ActorRef
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> ApplyConverter
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> CommonMarshallers
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> CommonPathDirectives
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> Deserializer
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> Directive
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> Directives
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> EntireResistanceExerciseSession
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> ExecutionContext
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> ExerciseProtocolMarshallers
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> ExerciseService
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> ExerciseSubmitEntireResistanceExerciseSession
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> ExerciseSubmitSuggestions
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> Marshaller
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> Predef
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> Prepend
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> Prepender
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> ResistanceExerciseExample
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> SessionId
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> SessionIdFormat
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> StringMarshaller
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> Suggestions
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> SuggestionsToResponseMarshaller
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> Timeouts
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> ToResponseMarshaller
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> UnitToResponseMarshaller
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> UnmarshalledAndEntity
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> UserExerciseProcessor
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> UserId
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> UserIdValue
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> actor
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> actorRef2Scala
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> akka
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> apply
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> ask
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> concurrent
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> defaultTimeout
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> defaults
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> duToResponseMarshaller
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> ec
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> entireResistanceExerciseSessionFormat
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> eres
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> exercise
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> fromMessageUnmarshaller
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> fromRequestUnmarshaller
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> futureMarshaller
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> hac0
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> hac1
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> handleWith
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> hlist
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> hnilPrepend
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> hnilPrepend1
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> io
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> liftMarshaller
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> mapRight
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> marshalling
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> muvr
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> package
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> path
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> pattern
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> pimpApply
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> pimpRouteWithConcatenation
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> post
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> println
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> qual$1
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> resistanceExerciseSetExampleFormat
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> routing
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> scala
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> segmentStringToPathMatcher
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> spray
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> sprayJsonMarshaller
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> sprayJsonUnmarshaller
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> suggestions
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> uae
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> unmarshalled
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> unmarshalledAndEntityFRU
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> unmarshalling
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> userId
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> x$2
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> x$3
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> ~
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> !
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> $bslash$div
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> &&
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> <init>
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> ==
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> A1
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> AbstractFunction2
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> ActorLogging
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> AnyRef
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> B1
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> ClassTag
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> EntireResistanceExerciseSession
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> ExerciseSubmitEntireResistanceExerciseSession
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> ExerciseSubmitSuggestions
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> Function1
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> IdExtractor
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> None
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> PersistentActor
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> Predef
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> Product
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> Props
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> Receive
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> ScalaRunTime
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> Serializable
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> ShardRegion
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> ShardResolver
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> String
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> StringContext
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> Suggestions
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> UserExerciseProcessor
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> UserExerciseProcessorPersistenceId
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> UserId
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> UserMessage
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> \/
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> _hashCode
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> _toString
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> actor
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> actorRef2Scala
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> akka
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> apply
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> asInstanceOf
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> contrib
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> eq
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> eres
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> exercise
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> id
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> idExtractor
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> io
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> isInstanceOf
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> materializeClassTag
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> muvr
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> name
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> package
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> path
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> pattern
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> persist
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> persistence
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> persistenceId
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> println
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> props
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> right
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> runtime
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> s
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> scala
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> scalaz
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> self
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> sender
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> shardName
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> shardRegion
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> shardResolver
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> suggestions
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> toString
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> typedProductIterator
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> unchecked
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> userId
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> ||
+product stamps:
+0 items
+source stamps:
+3 items
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> hash(099620de7544a6798304202c78b3ba6cdb44bfb7)
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> hash(3db13c42ae2c59855cb0069ac19b0086da91e5e3)
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> hash(e3c8473f10a797d207071f1a29f0b07d1d82e66f)
+binary stamps:
+14 items
+/home/peyton/.ivy2/cache/com.chuusai/shapeless_2.11/bundles/shapeless_2.11-2.1.0.jar -> lastModified(1423559783000)
+/home/peyton/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.12.jar -> lastModified(1436444188000)
+/home/peyton/.ivy2/cache/com.typesafe.akka/akka-contrib_2.11/jars/akka-contrib_2.11-2.3.12.jar -> lastModified(1436455473000)
+/home/peyton/.ivy2/cache/com.typesafe.akka/akka-persistence-experimental_2.11/jars/akka-persistence-experimental_2.11-2.3.12.jar -> lastModified(1436444172000)
+/home/peyton/.ivy2/cache/io.spray/spray-httpx_2.11/bundles/spray-httpx_2.11-1.3.3.jar -> lastModified(1427227454000)
+/home/peyton/.ivy2/cache/io.spray/spray-routing-shapeless2_2.11/bundles/spray-routing-shapeless2_2.11-1.3.3.jar -> lastModified(1427346988000)
+/home/peyton/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> lastModified(1438617866000)
+/home/peyton/.ivy2/cache/org.scalaz/scalaz-core_2.11/bundles/scalaz-core_2.11-7.1.3.jar -> lastModified(1434966022000)
+/home/peyton/Documents/muvr-server/common-protocol-marshalling/target/common-protocol-marshalling_2.11-1.0.0-SNAPSHOT.jar -> lastModified(1448290735000)
+/home/peyton/Documents/muvr-server/common-protocol/target/common-protocol_2.11-1.0.0-SNAPSHOT.jar -> lastModified(1448290733000)
+/home/peyton/Documents/muvr-server/common/target/common_2.11-1.0.0-SNAPSHOT.jar -> lastModified(1448290735000)
+/home/peyton/Documents/muvr-server/exercise-protocol-marshalling/target/exercise-protocol-marshalling_2.11-1.0.0-SNAPSHOT.jar -> lastModified(1448290739000)
+/home/peyton/Documents/muvr-server/exercise-protocol/target/exercise-protocol_2.11-1.0.0-SNAPSHOT.jar -> lastModified(1448290737000)
+/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> lastModified(1448288906000)
+class names:
+14 items
+/home/peyton/.ivy2/cache/com.chuusai/shapeless_2.11/bundles/shapeless_2.11-2.1.0.jar -> shapeless.HNil
+/home/peyton/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.12.jar -> akka.actor.ActorLogging
+/home/peyton/.ivy2/cache/com.typesafe.akka/akka-contrib_2.11/jars/akka-contrib_2.11-2.3.12.jar -> akka.contrib.pattern.ShardRegion$
+/home/peyton/.ivy2/cache/com.typesafe.akka/akka-persistence-experimental_2.11/jars/akka-persistence-experimental_2.11-2.3.12.jar -> akka.persistence.PersistentActor
+/home/peyton/.ivy2/cache/io.spray/spray-httpx_2.11/bundles/spray-httpx_2.11-1.3.3.jar -> spray.httpx.marshalling.Marshaller$
+/home/peyton/.ivy2/cache/io.spray/spray-routing-shapeless2_2.11/bundles/spray-routing-shapeless2_2.11-1.3.3.jar -> spray.routing.Directives
+/home/peyton/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> scala.Product
+/home/peyton/.ivy2/cache/org.scalaz/scalaz-core_2.11/bundles/scalaz-core_2.11-7.1.3.jar -> scalaz.DisjunctionFunctions
+/home/peyton/Documents/muvr-server/common-protocol-marshalling/target/common-protocol-marshalling_2.11-1.0.0-SNAPSHOT.jar -> io.muvr.CommonPathDirectives
+/home/peyton/Documents/muvr-server/common-protocol/target/common-protocol_2.11-1.0.0-SNAPSHOT.jar -> io.muvr.UserId$
+/home/peyton/Documents/muvr-server/common/target/common_2.11-1.0.0-SNAPSHOT.jar -> io.muvr.UserMessage
+/home/peyton/Documents/muvr-server/exercise-protocol-marshalling/target/exercise-protocol-marshalling_2.11-1.0.0-SNAPSHOT.jar -> io.muvr.exercise.ExerciseProtocolMarshallers
+/home/peyton/Documents/muvr-server/exercise-protocol/target/exercise-protocol_2.11-1.0.0-SNAPSHOT.jar -> io.muvr.exercise.Suggestions
+/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+3 items
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHB0tQYAAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAInNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHAMVt50AAZub3RpZnlzcQB+AAwdCV2fdAAHdW5hcHBseXNxAH4ADJWBTAZ0AAR3YWl0c3EAfgAM3Z74QHQADSRhc0luc3RhbmNlT2ZzcQB+AAwm+g89dAAMcHJvZHVjdEFyaXR5c3EAfgAMeSrdrXQABmVxdWFsc3NxAH4ADAo9jk10AARib290c3EAfgAMsSqFk3QADGFzSW5zdGFuY2VPZnNxAH4ADBT5Jlp0AAxzeW5jaHJvbml6ZWRzcQB+AAwcomr8dAANJGlzSW5zdGFuY2VPZnNxAH4ADI7eqWt0AAhjYW5FcXVhbHNxAH4ADBS8Wnt0AA1wcm9kdWN0UHJlZml4c3EAfgAMId5adHQACW5vdGlmeUFsbHNxAH4ADB+Z0El0AAtyZWFkUmVzb2x2ZXNxAH4ADDiZ2AN0AAxpc0luc3RhbmNlT2ZzcQB+AAz9ciIbdAAGPGluaXQ+c3EAfgAMcZWrHnQADEV4ZXJjaXNlQm9vdHNxAH4ADBY8vO10AAVhcHBseXNxAH4ADFVV/+h0AAI9PXNxAH4ADCKqZ590AAVjbG9uZXNxAH4ADJYsZhd0AARjb3B5c3EAfgAM9XQTinQACHRvU3RyaW5nc3EAfgAMx9xwU3QAAiE9c3EAfgAMAeDE/3QABXJvdXRlc3EAfgAM4UMOInQACGdldENsYXNzc3EAfgAM+7o0HHQADmNvcHkkZGVmYXVsdCQxc3EAfgAMA5upFHQAAm5lc3EAfgAM3SircXQAAmVxc3EAfgAMApIxHnQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADObYj/J0AAhleGVyY2lzZXNxAH4ADEjACC90AAIjI3NxAH4ADGROCT50AAhmaW5hbGl6ZXNxAH4ADAaVLoJ0AA5wcm9kdWN0RWxlbWVudHNxAH4ADCA3vDt0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFt4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AB1pby5tdXZyLmV4ZXJjaXNlLkV4ZXJjaXNlQm9vdHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AdHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AcwBwc3EAfgB4c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFtMAAlpbmhlcml0ZWRxAH4AW0wAB3BhcmVudHNxAH4AW3hxAH4AfHNxAH4AcwBwc3EAfgB4dXEAfgBWAAAAAHNxAH4AcwBwc3EAfgB4dXEAfgBWAAAAAHNxAH4AcwBwc3EAfgB4dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAZzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB7dAAMU2VyaWFsaXphYmxlc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB7c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCZc3EAfgCMcQB+AI9zcQB+AJBzcQB+AJN1cQB+AJYAAAADc3EAfgCYdAAEamF2YXNxAH4AmHQAAmlvcQB+AJ1zcQB+AIx0AAdQcm9kdWN0cQB+AJJzcQB+AIx0AAZFcXVhbHNxAH4AknNxAH4AjHQABk9iamVjdHNxAH4AkHNxAH4Ak3VxAH4AlgAAAANzcQB+AJhxAH4Ao3NxAH4AmHQABGxhbmdxAH4AnXNxAH4AjHQAA0FueXEAfgCSc3EAfgBYcQB+AGV1cQB+AGYAAAAAc3EAfgBoAHQAHWlvLm11dnIuZXhlcmNpc2UuRXhlcmNpc2VCb290dXEAfgBrAAAAAH5xAH4AbXQABk1vZHVsZXVxAH4AcQAAAABzcQB+AHMAcHNxAH4AeHEAfgB9c3EAfgBzAHBzcQB+AHhzcQB+AIBzcQB+AHMAcHNxAH4AeHVxAH4AVgAAAABzcQB+AHMAcHNxAH4AeHVxAH4AVgAAAABzcQB+AHMAcHNxAH4AeHVxAH4AigAAAARzcQB+AIxxAH4Aj3NxAH4AkHNxAH4Ak3VxAH4AlgAAAAJzcQB+AJhxAH4Am3EAfgCdc3EAfgCMcQB+AI9zcQB+AJBzcQB+AJN1cQB+AJYAAAADc3EAfgCYcQB+AKNzcQB+AJh0AAJpb3EAfgCdc3EAfgCMcQB+AKtzcQB+AJBzcQB+AJN1cQB+AJYAAAADc3EAfgCYcQB+AKNzcQB+AJhxAH4AsXEAfgCdc3EAfgCMcQB+ALNxAH4Ay3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAADc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAB2lvLm11dnJzcQB+AN90AAJpb3NxAH4A33QAEGlvLm11dnIuZXhlcmNpc2VzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVE02uV/dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAOi9ob21lL3BleXRvbi9Eb2N1bWVudHMvbXV2ci1zZXJ2ZXIvZXhlcmNpc2UvdGFyZ2V0L2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQJliDedUSmeYMEICx4s7ps20S/tw==
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCFEkRxAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAmc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw1JcHQ3QAGnBpbXBSb3V0ZVdpdGhDb25jYXRlbmF0aW9uc3EAfgALKVAAVHQAGHVubWFyc2hhbGxlZEFuZEVudGl0eUZSVXNxAH4AC4iqJ7N0AB5zcHJheUpzb25Vbm1hcnNoYWxsZXJDb252ZXJ0ZXJzcQB+AAthrUq4dAAQb3B0aW9uTWFyc2hhbGxlcnNxAH4AC5KjFud0AApEYXRlRm9ybWF0c3EAfgAL7PTefHQAGnNlZ21lbnRTdHJpbmdUb1BhdGhNYXRjaGVyc3EAfgALLj2RFnQAFlN1Z2dlc3Rpb25Tb3VyY2VGb3JtYXRzcQB+AAvjSfBYdAAVZnVzZWRTZW5zb3JEYXRhRm9ybWF0c3EAfgALM4lfD3QAEGZ1dHVyZU1hcnNoYWxsZXJzcQB+AAt4DJpldAAVc3ByYXlKc29uVW5tYXJzaGFsbGVyc3EAfgALTEgi03QACXN0cmluZzJOUnNxAH4AC/iOhmF0AAlzeW1ib2wyTlJzcQB+AAunfh9zdAAicmVzaXN0YW5jZUV4ZXJjaXNlU2V0RXhhbXBsZUZvcm1hdHNxAH4AC/ayk+p0ABxzcHJheUpzb25NYXJzaGFsbGVyQ29udmVydGVyc3EAfgALzmXoLHQAIHN0cmluZ0V4dHJhY3Rpb25QYWlyMlBhdGhNYXRjaGVyc3EAfgALugEWIHQAE3NwcmF5SnNvbk1hcnNoYWxsZXJzcQB+AAtFE2MfdAAOVXVpZEpzb25Gb3JtYXRzcQB+AAvzAKOmdAAlZW50aXJlUmVzaXN0YW5jZUV4ZXJjaXNlU2Vzc2lvbkZvcm1hdHNxAH4AC6Riw4F0ABR2YWx1ZU1hcDJQYXRoTWF0Y2hlcnNxAH4ACyCBk1t0AB9TdWdnZXN0aW9uc1RvUmVzcG9uc2VNYXJzaGFsbGVyc3EAfgALdD4hH3QAImNsYXNzaWZpZWRSZXNpc3RhbmNlRXhlcmNpc2VGb3JtYXRzcQB+AAv1i5GndAANdHJ5TWFyc2hhbGxlcnNxAH4AC5c3cXJ0AB9yZXNpc3RhbmNlRXhlcmNpc2VTZXNzaW9uRm9ybWF0c3EAfgALGTVU+nQAE0Rpc2p1bmN0VW5pb25GdXR1cmVzcQB+AAv66kz8dAAYcmVzcG9uc2VPcHRpb25NYXJzaGFsbGVyc3EAfgALKyHVk3QAEHN0cmVhbU1hcnNoYWxsZXJzcQB+AAvIh1JjdAAYVW5pdFRvUmVzcG9uc2VNYXJzaGFsbGVyc3EAfgALC2n0SXQAFmR1VG9SZXNwb25zZU1hcnNoYWxsZXJzcQB+AAsU4W4HdAAIRGF0ZUZTT0RzcQB+AAvHIL0JdAAmc3RyaW5nT3B0aW9uTmFtZVJlY2VwdGFjbGUyUGF0aE1hdGNoZXJzcQB+AAuW2WCxdAATZXhlcmNpc2VNb2RlbEZvcm1hdHNxAH4AC0ENihN0AAxVc2VySWRGb3JtYXRzcQB+AAsMCcSgdAAPU2Vzc2lvbklkRm9ybWF0c3EAfgALkVviiHQAEGVpdGhlck1hcnNoYWxsZXJzcQB+AAvco4H0dAAYcmVzaXN0YW5jZUV4ZXJjaXNlRm9ybWF0c3EAfgALJkJy1XQAEFNlbnNvckRhdGFGb3JtYXRzcQB+AAs4HqYHdAALbU1hcnNoYWxsZXJzcQB+AAv7EkQtdAARcmVnZXgyUGF0aE1hdGNoZXJ1cQB+AAkAAADJc3EAfgALPPM5tXQACWZvcm1GaWVsZHNxAH4AC8aQ0lt0AAhjbGllbnRJUHNxAH4AC1ClDht0ABBzdWdnZXN0aW9uU291cmNlc3EAfgALedT3lXQAEHdpdGhSYW5nZVN1cHBvcnRzcQB+AAtwGVzZdAAScm91dGVSb3V0ZVJlc3BvbnNlc3EAfgALUtkOcXQAFHBhdGhFbmRPclNpbmdsZVNsYXNoc3EAfgALIRKf7HQABm5vdGlmeXNxAH4AC/FIlg90AAlJbnROdW1iZXJzcQB+AAtJlu6ldAAEcmVhZHNxAH4AC8KGCIB0AA9wYXRoU2luZ2xlU2xhc2hzcQB+AAumpkBAdAAHcHJvZHVjZXNxAH4AC1yy60B0ABhyZXNwb25zZUVuY29kaW5nQWNjZXB0ZWRzcQB+AAsB8rSXdAAGbWV0aG9kc3EAfgAL7tPyOXQABHBvc3RzcQB+AAuX2Bk4dAAdcmVzcG9uZFdpdGhMYXN0TW9kaWZpZWRIZWFkZXJzcQB+AAtccS+1dAARaGVhZGVyVmFsdWVCeU5hbWVzcQB+AAuWRzPAdAAPcmVxdWVzdEluc3RhbmNlc3EAfgAL9N0utnQAG2NvbXByZXNzUmVzcG9uc2VJZlJlcXVlc3RlZHNxAH4AC3oXHsh0AAhtYXBSaWdodHNxAH4AC/akcDF0ABVvcHRpb25hbEhlYWRlclZhbHVlUEZzcQB+AAt34tgcdAAHb2ZUeXBlc3NxAH4AC0v3dZZ0AAlwYXJhbWV0ZXJzcQB+AAuUY7qVdAAScmVzcG9uZFdpdGhIZWFkZXJzc3EAfgAL6y3wYHQAEm1hcFJvdXRlUmVzcG9uc2VQRnNxAH4AC784IAV0AAR3YWl0c3EAfgALMLfxIHQAEmxvZ1JlcXVlc3RSZXNwb25zZXNxAH4AC6f3JNV0ABVsaXN0RGlyZWN0b3J5Q29udGVudHNzcQB+AAsGWo+odAANJGFzSW5zdGFuY2VPZnNxAH4AC4m6agh0AARwYXRoc3EAfgALGhBFjHQAD21hcEh0dHBSZXNwb25zZXNxAH4ACzbtdyd0AAppbnN0YW5jZU9mc3EAfgALDG4DYHQAB05ldXRyYWxzcQB+AAs012rIdAAHY29tcG9zZXNxAH4AC9mNkm10AAhyZWRpcmVjdHNxAH4AC1TI8Nt0AAdoaXN0b3J5c3EAfgAL2CTeG3QAEnJlcXVlc3RFbnRpdHlFbXB0eXNxAH4AC4UMdSB0AA1oZWFkZXJWYWx1ZVBGc3EAfgALyJC9y3QAD2ludGVuc2l0eUZvcm1hdHNxAH4ACz1H9+p0AAdQYXRoRW5kc3EAfgAL3W1+tXQAD2Zyb21EZWNpbWFsQ2hhcnNxAH4AC5htOkB0AAZlcXVhbHNzcQB+AAv+TsWCdAAIaGV4dHJhY3RzcQB+AAvDDH1IdAAWbWFwSHR0cFJlc3BvbnNlSGVhZGVyc3NxAH4AC9J5imZ0AAhtaW51c09uZXNxAH4ACwDhS7F0ABFyYXdQYXRoUHJlZml4VGVzdHNxAH4AC1TZ79d0ABhnZXRGcm9tUmVzb3VyY2VEaXJlY3RvcnlzcQB+AAsPsAeJdAATb3B0aW9uYWxIZWFkZXJWYWx1ZXNxAH4AC6lqsmJ0ABBnZXRGcm9tRGlyZWN0b3J5c3EAfgALHPYhfXQACm1heERpdkJhc2VzcQB+AAtn8/zWdAAJYW55UGFyYW1zc3EAfgALr5ZOTHQABGhlYWRzcQB+AAsblouYdAAMYXNJbnN0YW5jZU9mc3EAfgALq5IRX3QAEGhhbmRsZVJlamVjdGlvbnNzcQB+AAuIVCWGdAAKcGF0aFByZWZpeHNxAH4AC2ecrr90AA1IZXhMb25nTnVtYmVyc3EAfgALqdI2GHQADEhleEludE51bWJlcnNxAH4AC7ZvTiV0AARob3N0c3EAfgALG+edXHQAEGNvbXByZXNzUmVzcG9uc2VzcQB+AAuvr7R5dAAMcGFyYW1ldGVyTWFwc3EAfgALVxngbnQACkxvbmdOdW1iZXJzcQB+AAsJYc9BdAAIdmFsaWRhdGVzcQB+AAtXPqRNdAAMc3luY2hyb25pemVkc3EAfgALjKOfQHQAE3JlamVjdEVtcHR5UmVzcG9uc2VzcQB+AAvMFHgrdAASYXV0b0NodW5rRmlsZUJ5dGVzc3EAfgALYaKW9HQACGZyb21DaGFyc3EAfgALWSTiTHQAB3VuYXJ5XyFzcQB+AAs4jSKYdAAGb2ZUeXBlc3EAfgALz0M9B3QAD2dldEZyb21SZXNvdXJjZXNxAH4AC1k2Mth0ABJyZXF1ZXN0RW5jb2RlZFdpdGhzcQB+AAv6CQMCdAANJGlzSW5zdGFuY2VPZnNxAH4AC6Uy8fF0AA9jYW5jZWxSZWplY3Rpb25zcQB+AAtNUBfXdAATY2FuY2VsQWxsUmVqZWN0aW9uc3NxAH4ACwHPeOl0AAdhbmRUaGVuc3EAfgALSLBbS3QAEHJlcGVhdCRkZWZhdWx0JDFzcQB+AAtuugpMdAAMZGVsZXRlQ29va2llc3EAfgAL190qRXQAAmFzc3EAfgAL2WzV0HQACGhvc3ROYW1lc3EAfgALIS9f03QABFJlc3RzcQB+AAuL9eqsdAARcmVzcG9uZFdpdGhTdGF0dXNzcQB+AAvX1xl0dAAPRXhlcmNpc2VTZXJ2aWNlc3EAfgALNwz4g3QAAXxzcQB+AAtJtJwZdAAJYXV0b0NodW5rc3EAfgALL2qZGXQAFG9wdGlvbmFsQXV0aGVudGljYXRlc3EAfgALGs3hpHQAFmRlbGV0ZUNvb2tpZSRkZWZhdWx0JDNzcQB+AAsZ7aIxdAAUcmVxdWVzdEVudGl0eVByZXNlbnRzcQB+AAsYZu75dAAOZW5jb2RlUmVzcG9uc2VzcQB+AAtxJgwNdAALbG9nUmVzcG9uc2VzcQB+AAtOvx8adAAHcHJvdmlkZXNxAH4ACw5+4fp0AARobWFwc3EAfgALgtqtkHQABnJlamVjdHNxAH4AC9CzPzh0AAlub3RpZnlBbGxzcQB+AAucHiR6dAAbcmVzcG9uZFdpdGhTaW5nbGV0b25IZWFkZXJzc3EAfgALhm3ur3QAGmdldEZyb21Ccm93c2VhYmxlRGlyZWN0b3J5c3EAfgALHKsoQ3QACXByb2dyYW1tZXNxAH4ACzHPNkF0AAtjb25kaXRpb25hbHNxAH4ACxSb5O50AAZkZXRhY2hzcQB+AAvsMukQdAAZb3B0aW9uYWxIZWFkZXJWYWx1ZUJ5TmFtZXNxAH4AC2sXxhl0AAxpc0luc3RhbmNlT2ZzcQB+AAuUVkG4dAAHcGF0aEVuZHNxAH4AC5QvY6F0AA1yYXdQYXRoUHJlZml4c3EAfgALltIxaHQAB29wdGlvbnNzcQB+AAsa0aN7dAARZGVjb21wcmVzc1JlcXVlc3RzcQB+AAu8ipQxdAAKbWFwUmVxdWVzdHNxAH4AC1CH67Z0AARub29wc3EAfgALzgfeynQACW9uU3VjY2Vzc3NxAH4AC7cfuV10AAx0aHJlZWRGb3JtYXRzcQB+AAudeanBdAAIZmFpbFdpdGhzcQB+AAulppSadAAHdHJhaW5lcnNxAH4ACxNFBZl0AAY8aW5pdD5zcQB+AAsXx/PrdAALZ2V0RnJvbUZpbGVzcQB+AAs+lQGVdAAQd2l0aERlZmF1bHRWYWx1ZXNxAH4AC+eRiDx0AA1tYXBJbm5lclJvdXRlc3EAfgALckmOiXQAGnJlc3BvbmRXaXRoU2luZ2xldG9uSGVhZGVyc3EAfgAL8gjbX3QAB1NlZ21lbnRzcQB+AAvFyW++dAAIY29tcGxldGVzcQB+AAtLcMFNdAAFYXBwbHlzcQB+AAsRAa0odAARbWFwUmVxdWVzdENvbnRleHRzcQB+AAsbBUAwdAAOcGF0aFByZWZpeFRlc3RzcQB+AAt5ieBFdAAcZ2V0RnJvbUJyb3dzZWFibGVEaXJlY3Rvcmllc3NxAH4AC7o/hFx0AA11bm1hdGNoZWRQYXRoc3EAfgALsFU53HQADHBhcmFtZXRlclNlcXNxAH4ACyl1NvJ0AA5vcHRpb25hbENvb2tpZXNxAH4AC+kddHx0AAI9PXNxAH4AC7jfz6p0AB1zcHJheUpzb25NYXJzaGFsbGVyJGRlZmF1bHQkMnNxAH4AC4WUMiR0AAlpbnRlbnNpdHlzcQB+AAvnuWNKdAAObWFwTm9uZVRvRW1wdHlzcQB+AAuXFSnSdAAGc2NoZW1lc3EAfgALEhB0D3QABmNvb2tpZXNxAH4AC2hYFp90AAVTbGFzaHNxAH4AC0/jExh0AAVjbG9uZXNxAH4AC87aeJt0AAlhdXRob3JpemVzcQB+AAtNaqT3dAAUcmV3cml0ZVVubWF0Y2hlZFBhdGhzcQB+AAubKwnWdAALaGVhZGVyVmFsdWVzcQB+AAsUgZTNdAAKaGFuZGxlV2l0aHNxAH4AC3I67290AAZkZWxldGVzcQB+AAuYIWvVdAALVXNlcklkVmFsdWVzcQB+AAsI1jRpdAAIaHByb3ZpZGVzcQB+AAsCam+pdAAWZGVsZXRlQ29va2llJGRlZmF1bHQkMnNxAH4AC8XOMIF0ABRyZXNwb25kV2l0aE1lZGlhVHlwZXNxAH4AC32hkD10AAZlbnRpdHlzcQB+AAtNR5NZdAAKZGF0ZUZvcm1hdHNxAH4ACxynZT10AAlzZXRDb29raWVzcQB+AAtakESRdAAmc3ByYXlKc29uTWFyc2hhbGxlckNvbnZlcnRlciRkZWZhdWx0JDJzcQB+AAvyUh1fdAAHc2Vzc2lvbnNxAH4AC1Jcu/J0AARwYXNzc3EAfgALRmTCjHQAEG1hcFJvdXRlUmVzcG9uc2VzcQB+AAsAdv2edAADcHV0c3EAfgALc6Jxq3QAEXBhcmFtZXRlck11bHRpTWFwc3EAfgALGpgXS3QADGF1dGhlbnRpY2F0ZXNxAH4AC+09rZl0AAh0b1N0cmluZ3NxAH4ACwSR8oV0ABNtYXBIdHRwUmVzcG9uc2VQYXJ0c3EAfgALO1J+s3QACnNjaGVtZU5hbWVzcQB+AAs2MiJtdAAbb3ZlcnJpZGVNZXRob2RXaXRoUGFyYW1ldGVyc3EAfgAL48VUXXQACFNlZ21lbnRzc3EAfgALq6zQ/XQAFW1hcEh0dHBSZXNwb25zZUVudGl0eXNxAH4AC/MzfG10AAIhPXNxAH4AC8v2jlN0AANnZXRzcQB+AAtNACvKdAAFcm91dGVzcQB+AAumo5ZfdAAOcGF0aFN1ZmZpeFRlc3RzcQB+AAs3hqR7dAAIZ2V0Q2xhc3NzcQB+AAsuQ+19dAAGcmVwZWF0c3EAfgAL1KxUiHQAEWhlYWRlclZhbHVlQnlUeXBlc3EAfgALLM1lGHQAEGhhbmRsZUV4Y2VwdGlvbnNzcQB+AAvJKVZydAASanNvbnBXaXRoUGFyYW1ldGVyc3EAfgALo3+7s3QACnBhdGhTdWZmaXhzcQB+AAtwbLGIdAAKb25Db21wbGV0ZXNxAH4AC1KThCB0AAVwYXRjaHNxAH4ACym/ns50AA5ub3RoaW5nTWF0Y2hlcnNxAH4AC+PKI8V0AAlvbkZhaWx1cmVzcQB+AAsi8OSPdAAISmF2YVVVSURzcQB+AAt6YFUfdAAKbG9nUmVxdWVzdHNxAH4AC+hU21B0AAhhbnlQYXJhbXNxAH4ACxReWBh0AAhSZXN0UGF0aHNxAH4ACzq5alR0AAJuZXNxAH4AC0LKevZ0AA1tYXBSZWplY3Rpb25zc3EAfgALQLZqd3QADlNlc3Npb25JZFZhbHVlc3EAfgALPPUrSnQAElJvdXRlQ29uY2F0ZW5hdGlvbnNxAH4AC5iDNaB0AApmb3JtRmllbGRzc3EAfgALn0olxHQACXRyYW5zZm9ybXNxAH4AC9mMMs10AApwYXJhbWV0ZXJzc3EAfgALC1nSMXQACnJlcXVlc3RVcmlzcQB+AAsVQsg4dAABfnNxAH4ACyoy7hV0AA1zZXNzaW9uRm9ybWF0c3EAfgAL9UapO3QACGhmbGF0TWFwc3EAfgALGc/YiHQADU51bWJlck1hdGNoZXJzcQB+AAtBaABwdAAJZHluYW1pY0lmc3EAfgALL+mWR3QAAmVxc3EAfgALnEvyoHQABXdyaXRlc3EAfgALznzVB3QADERvdWJsZU51bWJlcnNxAH4AC5If/gx0AAEvc3EAfgALkpjiYnQAC1BhdGhFbGVtZW50c3EAfgALaJXUvHQADWRlY29kZVJlcXVlc3RzcQB+AAspK0xjdAARcmVzcG9uZFdpdGhIZWFkZXJzcQB+AAt0VML3dAACIyNzcQB+AAuUg8AedAAIZmluYWxpemVzcQB+AAvqaLtndAAHZXh0cmFjdHNxAH4AC/GT1dp0AAhoYXNoQ29kZXNxAH4ACwYsblh0AAtmcm9tSGV4Q2hhcnNxAH4ACz27vfF0AAdkeW5hbWljc3EAfgALanlGuXQAGW9wdGlvbmFsSGVhZGVyVmFsdWVCeVR5cGVzcQB+AAun6z5BdAARc2VwYXJhdGVPblNsYXNoZXNzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgH1eHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEXhzYnRpLmFwaS5Qcml2YXRlU6lggSbp1T4CAAB4cgATeHNidGkuYXBpLlF1YWxpZmllZKq0Xe9UsW0YAgABTAAJcXVhbGlmaWVydAAVTHhzYnRpL2FwaS9RdWFsaWZpZXI7eHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwc3IAFXhzYnRpLmFwaS5JZFF1YWxpZmllcreHEPQ9sm21AgABTAAFdmFsdWVxAH4ADHhyABN4c2J0aS5hcGkuUXVhbGlmaWVys3iUqevWWycCAAB4cHQAEGlvLm11dnIuZXhlcmNpc2V1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAIGlvLm11dnIuZXhlcmNpc2UuRXhlcmNpc2VTZXJ2aWNldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQAEHNjYWxhLmRlcHJlY2F0ZWRzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AhV4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AhQAcHNxAH4CGXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgH1TAAJaW5oZXJpdGVkcQB+AfVMAAdwYXJlbnRzcQB+AfV4cQB+Ah1zcQB+AhQAcHNxAH4CGXVxAH4B8AAAAABzcQB+AhQAcHNxAH4CGXVxAH4B8AAAAABzcQB+AhQAcHNxAH4CGXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAlc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4CHHQAEUNvbW1vbk1hcnNoYWxsZXJzc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgIcc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAJpb3NxAH4COXQABG11dnJzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4COnNxAH4CLXQAG0V4ZXJjaXNlUHJvdG9jb2xNYXJzaGFsbGVyc3NxAH4CMXNxAH4CNHVxAH4CNwAAAARzcQB+Ajl0AAJpb3NxAH4COXQABG11dnJzcQB+Ajl0AAhleGVyY2lzZXEAfgJAc3EAfgItdAAUQ29tbW9uUGF0aERpcmVjdGl2ZXNxAH4CM3NxAH4CLXQAGUNvbW1vblByb3RvY29sTWFyc2hhbGxlcnNxAH4CM3NxAH4CLXQAD01ldGFNYXJzaGFsbGVyc3NxAH4CMXNxAH4CNHVxAH4CNwAAAARzcQB+Ajl0AAVzcHJheXNxAH4COXQABWh0dHB4c3EAfgI5dAALbWFyc2hhbGxpbmdxAH4CQHNxAH4CLXQAJExvd2VyUHJpb3JpdHlJbXBsaWNpdE1ldGFNYXJzaGFsbGVyc3EAfgJSc3EAfgItdAAQU3ByYXlKc29uU3VwcG9ydHNxAH4CMXNxAH4CNHVxAH4CNwAAAANzcQB+Ajl0AAVzcHJheXNxAH4COXQABWh0dHB4cQB+AkBzcQB+Ai10AApEaXJlY3RpdmVzc3EAfgIxc3EAfgI0dXEAfgI3AAAAA3NxAH4COXQABXNwcmF5c3EAfgI5dAAHcm91dGluZ3EAfgJAc3EAfgItdAASU2VjdXJpdHlEaXJlY3RpdmVzc3EAfgIxc3EAfgI0dXEAfgI3AAAABHNxAH4COXQABXNwcmF5c3EAfgI5dAAHcm91dGluZ3NxAH4COXQACmRpcmVjdGl2ZXNxAH4CQHNxAH4CLXQAEFNjaGVtZURpcmVjdGl2ZXNxAH4CcXNxAH4CLXQAD1JvdXRlRGlyZWN0aXZlc3EAfgJxc3EAfgItdAAVUmVzcG9uZFdpdGhEaXJlY3RpdmVzcQB+AnFzcQB+Ai10AA9SYW5nZURpcmVjdGl2ZXNxAH4CcXNxAH4CLXQADlBhdGhEaXJlY3RpdmVzcQB+AnFzcQB+Ai10AB9JbXBsaWNpdFBhdGhNYXRjaGVyQ29uc3RydWN0aW9ucQB+AmhzcQB+Ai10AAxQYXRoTWF0Y2hlcnNxAH4CaHNxAH4CLXQAE1BhcmFtZXRlckRpcmVjdGl2ZXNxAH4CcXNxAH4CLXQADk1pc2NEaXJlY3RpdmVzcQB+AnFzcQB+Ai10ABBNZXRob2REaXJlY3RpdmVzcQB+AnFzcQB+Ai10ABVNYXJzaGFsbGluZ0RpcmVjdGl2ZXNxAH4CcXNxAH4CLXQADkhvc3REaXJlY3RpdmVzcQB+AnFzcQB+Ai10ABBIZWFkZXJEaXJlY3RpdmVzcQB+AnFzcQB+Ai10ABBGdXR1cmVEaXJlY3RpdmVzcQB+AnFzcQB+Ai10ABNGb3JtRmllbGREaXJlY3RpdmVzcQB+AnFzcQB+Ai10ABVUb05hbWVSZWNlcHRhY2xlUGltcHNxAH4CcXNxAH4CLXQAGUZpbGVBbmRSZXNvdXJjZURpcmVjdGl2ZXNxAH4CcXNxAH4CLXQAE0V4ZWN1dGlvbkRpcmVjdGl2ZXNxAH4CcXNxAH4CLXQAEkVuY29kaW5nRGlyZWN0aXZlc3EAfgJxc3EAfgItdAATRGVidWdnaW5nRGlyZWN0aXZlc3EAfgJxc3EAfgItdAAQQ29va2llRGlyZWN0aXZlc3EAfgJxc3EAfgItdAASQ2h1bmtpbmdEaXJlY3RpdmVzcQB+AnFzcQB+Ai10ABhDYWNoZUNvbmRpdGlvbkRpcmVjdGl2ZXNxAH4CcXNxAH4CLXQAD0Jhc2ljRGlyZWN0aXZlc3EAfgJxc3EAfgItdAASQW55UGFyYW1EaXJlY3RpdmVzcQB+AnFzcQB+Ai10ABJSb3V0ZUNvbmNhdGVuYXRpb25xAH4CaHNxAH4CLXQABk9iamVjdHNxAH4CMXNxAH4CNHVxAH4CNwAAAANzcQB+Ajl0AARqYXZhc3EAfgI5dAAEbGFuZ3EAfgJAc3EAfgItdAADQW55c3EAfgIxc3EAfgI0dXEAfgI3AAAAAnNxAH4COXQABXNjYWxhcQB+AkB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAMeHB0AAdpby5tdXZyc3EAfgLAdAACaW9zcQB+AsB0ABBpby5tdXZyLmV4ZXJjaXNlc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFRNNrlf3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0ADovaG9tZS9wZXl0b24vRG9jdW1lbnRzL211dnItc2VydmVyL2V4ZXJjaXNlL3RhcmdldC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUPbE8Qq4sWYVcsAaawZsAhtqR5eM=
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDUUV97AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAADc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwXfvipnQAGGN1cnJlbnRQZXJzaXN0ZW50TWVzc2FnZXNxAH4AC/qyLtB0AARzZWxmc3EAfgALm5rbG3QAB2NvbnRleHR1cQB+AAkAAABtc3EAfgALegCe63QACmluc3RhbmNlSWRzcQB+AAtDbStidAAHdW5zdGFzaHNxAH4AC96tHed0AA5wcmVwYXJlUmVzdGFydHNxAH4AC1UOlil0AAZub3RpZnlzcQB+AAtlDLz1dAAJc2hhcmROYW1lc3EAfgALOzxI8nQABWRlZmVyc3EAfgALGLJsO3QAB3VuYXBwbHlzcQB+AAu9KBmrdAAPZGVsZXRlU25hcHNob3Rzc3EAfgALXuG8+HQAD3JlY292ZXJ5UGVuZGluZ3NxAH4AC0Nu/jd0AAdjdXJyaWVkc3EAfgALxy4KX3QAB1JlY2VpdmVzcQB+AAs8E2f9dAAFc3Rhc2hzcQB+AAslsg5QdAAtRXhlcmNpc2VTdWJtaXRFbnRpcmVSZXNpc3RhbmNlRXhlcmNpc2VTZXNzaW9uc3EAfgALo2VPBnQABHdhaXRzcQB+AAvcB0o8dAAPaW5pdGlhbEJlaGF2aW9yc3EAfgALhBIcp3QAFVVzZXJFeGVyY2lzZVByb2Nlc3NvcnNxAH4AC3judRV0AA5jb3B5JGRlZmF1bHQkMnNxAH4AC9qmSJh0AA0kYXNJbnN0YW5jZU9mc3EAfgALD71gMXQAC2lkRXh0cmFjdG9yc3EAfgALs5pE4nQADXNuYXBzaG90dGVySWRzcQB+AAt5T5rIdAAHcHJlcGVuZHNxAH4AC88GIBp0AAtzaGFyZFJlZ2lvbnNxAH4AC4lVe9x0ABR1cGRhdGVMYXN0U2VxdWVuY2VOcnNxAH4AC6O8F0x0AAxwcm9kdWN0QXJpdHlzcQB+AAvZTEOndAARZmx1c2hKb3VybmFsQmF0Y2hzcQB+AAsWWczbdAAGZXF1YWxzc3EAfgALz64rLHQAB3Byb2Nlc3NzcQB+AAum3HHLdAAOZGVsZXRlTWVzc2FnZXNzcQB+AAuozkfQdAAPb25SZXBsYXlGYWlsdXJlc3EAfgAL8KWU43QAEnNuYXBzaG90U2VxdWVuY2VOcnNxAH4AC2b/YWZ0AAxhc0luc3RhbmNlT2ZzcQB+AAu4a7LEdAAHam91cm5hbHNxAH4AC7AZJkx0AApjbGVhclN0YXNoc3EAfgALuBEnVXQADHN5bmNocm9uaXplZHNxAH4AC43r0+10AA9yZWNvdmVyeVN0YXJ0ZWRzcQB+AAsCFYwzdAAMbG9hZFNuYXBzaG90c3EAfgAL64QNj3QAD3JlY292ZXJ5UnVubmluZ3NxAH4ACwx8xxZ0AA0kaXNJbnN0YW5jZU9mc3EAfgAL4SiDMXQAG2dldEN1cnJlbnRQZXJzaXN0ZW50TWVzc2FnZXNxAH4AC43cm5Z0AAdyZWNlaXZlc3EAfgALOLwHFnQACnByZVJlc3RhcnRzcQB+AAuIQTcWdAAHbWFpbGJveHNxAH4AC+9t7tR0AAZ0dXBsZWRzcQB+AAvPQg22dAAMcmVwbGF5RmFpbGVkc3EAfgAL3iEkaHQADWFyb3VuZFJlY2VpdmVzcQB+AAt8el/hdAAIY2FuRXF1YWxzcQB+AAuOQaw/dAAVd2l0aEN1cnJlbnRQZXJzaXN0ZW50c3EAfgALwDsB0nQAC3Bvc3RSZXN0YXJ0c3EAfgALlkp89nQAC3N1Z2dlc3Rpb25zc3EAfgALaUaGO3QAD29uUmVwbGF5U3VjY2Vzc3NxAH4ACx7Ft6p0AAhwb3N0U3RvcHNxAH4AC+Wf9Y10AA1yZXBsYXlTdGFydGVkc3EAfgALwWTAVnQADXByb2R1Y3RQcmVmaXhzcQB+AAs8WeHMdAAJbm90aWZ5QWxsc3EAfgALHk8HFnQAC3JlYWRSZXNvbHZlc3EAfgAL1/rFm3QAC2NyZWF0ZVN0YXNoc3EAfgALaY0ojnQAEWFyb3VuZFBvc3RSZXN0YXJ0c3EAfgALPe8zBHQADGlzSW5zdGFuY2VPZnNxAH4AC0/d+E90ABBhcm91bmRQcmVSZXN0YXJ0c3EAfgAL8JSldXQADHNhdmVTbmFwc2hvdHNxAH4ACy0wrGp0AA5hcm91bmRQb3N0U3RvcHNxAH4AC0+ioil0ABByZWNvdmVyeUZpbmlzaGVkc3EAfgALsdo3FHQAB3BlcnNpc3RzcQB+AAuTs6NAdAAGPGluaXQ+c3EAfgAL0uMzB3QACHByZVN0YXJ0c3EAfgALuMwGF3QACnJ1blJlY2VpdmVzcQB+AAtG3kCQdAAJdW5oYW5kbGVkc3EAfgAL3ZfVF3QABWFwcGx5c3EAfgALVoW+ZXQADXJlY2VpdmVyU3Rhc2hzcQB+AAsVtxfvdAACPT1zcQB+AAvGkhsOdAAOcmVjZWl2ZVJlY292ZXJzcQB+AAt/Fv51dAAFY2xvbmVzcQB+AAv2DNL4dAANZGVsZXRlTWVzc2FnZXNxAH4AC4uxBDV0AA5kZWxldGVTbmFwc2hvdHNxAH4AC3kxsL50AAYkaW5pdCRzcQB+AAvAQ4oCdAANc2hhcmRSZXNvbHZlcnNxAH4ACzPoF6F0AAxwZXJzaXN0QXN5bmNzcQB+AAvHyi4ydAAEY29weXNxAH4AC1uUTqN0AAZzZW5kZXJzcQB+AAtUIqqBdAAIdG9TdHJpbmdzcQB+AAsTOGPidAAZRXhlcmNpc2VTdWJtaXRTdWdnZXN0aW9uc3NxAH4AC2V/n9V0AAp1bnN0YXNoQWxsc3EAfgALi/zl43QAAiE9c3EAfgALMVqNi3QADV9jdXJyZW50U3RhdGVzcQB+AAtWt21HdAAIZ2V0Q2xhc3NzcQB+AAvD5qbAdAAGdXNlcklkc3EAfgAL/b/jV3QADmNvcHkkZGVmYXVsdCQxc3EAfgALF7oPynQABVN0YXRlc3EAfgALNXpb/XQAEXByZVJlc3RhcnREZWZhdWx0c3EAfgALx+riu3QABXByb3Bzc3EAfgALB4oahHQADnJlY2VpdmVDb21tYW5kc3EAfgALgLAj43QAC3Byb2Nlc3Nvcklkc3EAfgAL/SZyUHQADXJlY29yZEZhaWx1cmVzcQB+AAsK92SndAACbmVzcQB+AAsNuxYddAANcGVyc2lzdGVuY2VJZHNxAH4AC4KXGlV0AARlcmVzc3EAfgALSfWsM3QAEnN1cGVydmlzb3JTdHJhdGVneXNxAH4ACwQUef10AA9yZXBsYXlDb21wbGV0ZWRzcQB+AAvgycX1dAACZXFzcQB+AAvcoloSdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgALYxkNKXQAA2xvZ3NxAH4ACzF91Ql0AA5sYXN0U2VxdWVuY2VOcnNxAH4AC2CBE+V0AAIjI3NxAH4AC/yGHGZ0AAhmaW5hbGl6ZXNxAH4AC7HZM3x0AA5wcm9kdWN0RWxlbWVudHNxAH4ACzqEtCR0AAhoYXNoQ29kZXNxAH4ACxoJZ/x0ABFwcm9jZXNzUGVyc2lzdGVudHNxAH4AC9XiJzF0AA5hcm91bmRQcmVTdGFydHNxAH4AC4xxm0Z0AAlleHRlbnNpb25zcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgD3eHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAmaW8ubXV2ci5leGVyY2lzZS5Vc2VyRXhlcmNpc2VQcm9jZXNzb3J1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgEQeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgEPAHBzcQB+ARRzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4A90wACWluaGVyaXRlZHEAfgD3TAAHcGFyZW50c3EAfgD3eHEAfgEYc3EAfgEPAHBzcQB+ARR1cQB+APIAAAAAc3EAfgEPAHBzcQB+ARR1cQB+APIAAAAAc3EAfgEPAHBzcQB+ARR1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+ARd0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+ARdzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+ATR0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+ATVzcQB+ASh0AANBbnlzcQB+ASxzcQB+AS91cQB+ATIAAAACc3EAfgE0dAAFc2NhbGFxAH4BO3NxAH4A9HEAfgEBdXEAfgECAAAAAHNxAH4BBAB0ACZpby5tdXZyLmV4ZXJjaXNlLlVzZXJFeGVyY2lzZVByb2Nlc3NvcnVxAH4BBwAAAAB+cQB+AQl0AAhDbGFzc0RlZnVxAH4BDQAAAAF0ABBzY2FsYS5kZXByZWNhdGVkc3EAfgEPAHBzcQB+ARRxAH4BGXNxAH4BDwBwc3EAfgEUc3EAfgEcc3EAfgEPAHBzcQB+ARR1cQB+APIAAAAAc3EAfgEPAHBzcQB+ARR1cQB+APIAAAAAc3EAfgEPAHBzcQB+ARR1cQB+ASYAAAAOc3EAfgEodAAMQWN0b3JMb2dnaW5nc3EAfgEsc3EAfgEvdXEAfgEyAAAAA3NxAH4BNHQABGFra2FzcQB+ATR0AAVhY3RvcnEAfgE7c3EAfgEodAAPUGVyc2lzdGVudEFjdG9yc3EAfgEsc3EAfgEvdXEAfgEyAAAAA3NxAH4BNHQABGFra2FzcQB+ATR0AAtwZXJzaXN0ZW5jZXEAfgE7c3EAfgEodAAMRXZlbnRzb3VyY2VkcQB+AWVzcQB+ASh0AA1Qcm9jZXNzb3JJbXBscQB+AWVzcQB+ASh0AAhSZWNvdmVyeXEAfgFlc3EAfgEodAAMU3Rhc2hGYWN0b3J5cQB+AVxzcQB+ASh0AAVTdGFzaHEAfgFcc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgEpWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgEXc3EAfgEodAAUUmVxdWlyZXNNZXNzYWdlUXVldWVzcQB+ASxzcQB+AS91cQB+ATIAAAADc3EAfgE0dAAEYWtrYXNxAH4BNHQACGRpc3BhdGNocQB+ATt1cQB+ASYAAAABc3EAfgEodAAfRGVxdWVCYXNlZE1lc3NhZ2VRdWV1ZVNlbWFudGljc3EAfgF7c3EAfgEodAARVW5yZXN0cmljdGVkU3Rhc2hxAH4BXHNxAH4BKHQADFN0YXNoU3VwcG9ydHEAfgFcc3EAfgEodAALU25hcHNob3R0ZXJxAH4BZXNxAH4BKHQABUFjdG9ycQB+AVxzcQB+AShxAH4BK3NxAH4BLHNxAH4BL3VxAH4BMgAAAANzcQB+ATRxAH4BN3NxAH4BNHEAfgE5cQB+ATtzcQB+AShxAH4BPXNxAH4BLHNxAH4BL3VxAH4BMgAAAAJzcQB+ATRxAH4BQnEAfgE7dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAANzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAAHaW8ubXV2cnNxAH4BmnQAAmlvc3EAfgGadAAQaW8ubXV2ci5leGVyY2lzZXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUTTa5X91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdAA6L2hvbWUvcGV5dG9uL0RvY3VtZW50cy9tdXZyLXNlcnZlci9leGVyY2lzZS90YXJnZXQvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFOPIRz8Qp5fSBwcfGinwsH0dguZv
+external apis:
+0 items
+source infos:
+3 items
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseBoot.scala -> 
+AAAAAAAAAAA=
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/ExerciseService.scala -> 
+AAAAAAAAAAA=
+/home/peyton/Documents/muvr-server/exercise/src/main/scala/io/muvr/exercise/UserExerciseProcessor.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUTTa5X91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOi9ob21lL3BleXRvbi9Eb2N1bWVudHMvbXV2ci1zZXJ2ZXIvZXhlcmNpc2UvdGFyZ2V0L2NsYXNzZXN0AAEv

@@ -1,0 +1,27 @@
+[0m[[0minfo[0m] [0mPackaging /home/peyton/Documents/muvr-server/exercise-protocol-marshalling/target/exercise-protocol-marshalling_2.11-1.0.0-SNAPSHOT.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	io/muvr/exercise/ExerciseProtocolMarshallers$class.class[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/exercise-protocol-marshalling/target/classes/io/muvr/exercise/ExerciseProtocolMarshallers$class.class[0m
+[0m[[0mdebug[0m] [0m	io/muvr/exercise/ExerciseProtocolMarshallers$SuggestionsToResponseMarshaller$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/exercise-protocol-marshalling/target/classes/io/muvr/exercise/ExerciseProtocolMarshallers$SuggestionsToResponseMarshaller$.class[0m
+[0m[[0mdebug[0m] [0m	io/muvr/exercise/ExerciseProtocolMarshallers$SessionIdFormat$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/exercise-protocol-marshalling/target/classes/io/muvr/exercise/ExerciseProtocolMarshallers$SessionIdFormat$.class[0m
+[0m[[0mdebug[0m] [0m	io/muvr[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/exercise-protocol-marshalling/target/classes/io/muvr[0m
+[0m[[0mdebug[0m] [0m	io/muvr/exercise/ExerciseProtocolMarshallers$SuggestionsToResponseMarshaller$$anonfun$write$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/exercise-protocol-marshalling/target/classes/io/muvr/exercise/ExerciseProtocolMarshallers$SuggestionsToResponseMarshaller$$anonfun$write$1.class[0m
+[0m[[0mdebug[0m] [0m	io/muvr/exercise/ExerciseProtocolMarshallers$SuggestionsToResponseMarshaller$SuggestionSourceFormat$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/exercise-protocol-marshalling/target/classes/io/muvr/exercise/ExerciseProtocolMarshallers$SuggestionsToResponseMarshaller$SuggestionSourceFormat$.class[0m
+[0m[[0mdebug[0m] [0m	io/muvr/exercise/ExerciseProtocolMarshallers$SensorDataFormat$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/exercise-protocol-marshalling/target/classes/io/muvr/exercise/ExerciseProtocolMarshallers$SensorDataFormat$.class[0m
+[0m[[0mdebug[0m] [0m	io[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/exercise-protocol-marshalling/target/classes/io[0m
+[0m[[0mdebug[0m] [0m	io/muvr/exercise/ExerciseProtocolMarshallers$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/exercise-protocol-marshalling/target/classes/io/muvr/exercise/ExerciseProtocolMarshallers$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	io/muvr/exercise/ExerciseProtocolMarshallers.class[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/exercise-protocol-marshalling/target/classes/io/muvr/exercise/ExerciseProtocolMarshallers.class[0m
+[0m[[0mdebug[0m] [0m	io/muvr/exercise[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/exercise-protocol-marshalling/target/classes/io/muvr/exercise[0m
+[0m[[0mdebug[0m] [0m	io/muvr/exercise/ExerciseProtocolMarshallers$SuggestionsToResponseMarshaller$$anonfun$read$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/exercise-protocol-marshalling/target/classes/io/muvr/exercise/ExerciseProtocolMarshallers$SuggestionsToResponseMarshaller$$anonfun$read$1.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

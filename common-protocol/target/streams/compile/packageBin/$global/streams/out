@@ -1,0 +1,11 @@
+[0m[[0minfo[0m] [0mPackaging /home/peyton/Documents/muvr-server/common-protocol/target/common-protocol_2.11-1.0.0-SNAPSHOT.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	io[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/common-protocol/target/classes/io[0m
+[0m[[0mdebug[0m] [0m	io/muvr[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/common-protocol/target/classes/io/muvr[0m
+[0m[[0mdebug[0m] [0m	io/muvr/UserId.class[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/common-protocol/target/classes/io/muvr/UserId.class[0m
+[0m[[0mdebug[0m] [0m	io/muvr/UserId$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/peyton/Documents/muvr-server/common-protocol/target/classes/io/muvr/UserId$.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
